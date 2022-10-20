@@ -467,6 +467,7 @@ html{
    border-radius: 12px;
    text-align: center;
    background-color: #00000047;
+   padding: 10px ;
 }
 .altproject .altproject__title{
    color: white;
