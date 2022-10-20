@@ -462,6 +462,19 @@ html{
 #contacto .btn-enviar:hover{
     background-color: #00c4fa;
 }
+.altproject{
+   border: 1px solid white;
+   border-radius: 12px;
+   text-align: center;
+   background-color: #00000047;
+}
+.altproject .altproject__title{
+   color: white;
+   font-size: 25px;
+}
+.altproject .altproject__parrafo{
+   color: white;
+}
 /* FOOTER */
 footer{
     background-color: #000000;
