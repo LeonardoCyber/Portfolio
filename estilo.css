@@ -69,10 +69,15 @@ html{
     scroll-behavior: smooth;
 }
 #inicio{
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("img/bginicio.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(180deg , #000000a6 0%, #000000a4 100%), url('./img/bginicio.jpg');
+   background-size: cover;
+   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+   z-index: -1;
 }
 #inicio .contenido header{
     background-color: rgba(1, 1, 1, 0.7);
