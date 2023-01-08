@@ -108,7 +108,8 @@ html{
    z-index: -1;
 }
 #inicio .contenido header{
-    background-color: rgba(1, 1, 1, 0.7);
+    background-color: #043d3a;
+    box-shadow: 0 0 20px black;
     width: 100%;
     z-index: 100;
     top: 0;
@@ -123,7 +124,7 @@ html{
 }
 #inicio .contenido header .contenido-header h1{
     text-align: center;
-    color: #00c4fa;
+    color: #ffffff;
 }
 #inicio .contenido header .contenido-header nav ul{
     list-style: none;
