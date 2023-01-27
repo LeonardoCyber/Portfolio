@@ -108,7 +108,7 @@ html{
    z-index: -1;
 }
 #inicio .contenido header{
-    background-color: #013735;
+    background-color: #013735be;
     box-shadow: 0 0 20px black;
     width: 100%;
     z-index: 100;
@@ -122,8 +122,9 @@ html{
     align-items: center;
     padding: 10px 20px;
 }
-#inicio .contenido header .contenido-header h1{
+#inicio .contenido header .contenido-header h1 img{
     text-align: center;
+    max-width: 60px;
     color: #ffffff;
 }
 #inicio .contenido header .contenido-header nav ul{
@@ -132,15 +133,16 @@ html{
     align-items: center;
 }
 #inicio .contenido header .contenido-header nav ul li a{
-    text-decoration: none;
-    color: white;
-    margin: 0 12px;
-    font-weight: 400;
-    font-size: 1.3rem;
-    transition: .5s;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   margin: 0 12px;
+   font-weight: 400;
+   font-size: 1.2rem;
+   transition: .5s;
 }
 #inicio .contenido header .contenido-header nav ul a:hover{
-    color: #00c4fa;
+   color: #00c4fa;
+   font-size: 1.4rem;
 }
 #inicio .contenido header .contenido-header .seleccionado{
     color: #00c4fa;
@@ -643,22 +645,6 @@ footer a{
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:1200px){
-    #nav.responsive{
-      display: block;
-      background-color: rgba(0,0,0,.7);
-      width: 100%;
-      position: absolute;
-      top: 61px;
-      left: 0;
-      padding: 10px 0;
-    }
-    #nav.responsive ul{
-      display: block !important;
-      text-align: center;
-   }
-   #nav.responsive ul li{
-      margin: 5px 0;
-   }
    #inicio .contenido .presentacion h2{
       font-size: 35px;
    }
@@ -740,27 +726,10 @@ footer a{
    }
 }
 @media screen and (max-width:1100px){
-    #nav.responsive{
-        display: block;
-        background-color: rgba(0,0,0,.7);
-        width: 100%;
-        position: absolute;
-        top: 61px;
-        left: 0;
-        padding: 10px 0;
-      }
-      #nav.responsive ul{
-        display: block !important;
-        text-align: center;
-     }
-     #nav.responsive ul li{
-        margin: 5px 0;
-     }
-     #inicio .contenido .presentacion h2{
-        font-size: 35px;
-     }
-    
-     #sobremi{
+   #inicio .contenido .presentacion h2{
+      font-size: 35px;
+   }
+   #sobremi{
         padding: 50px 0;
         display: flex;
      }
@@ -836,22 +805,6 @@ footer a{
      }
 }
 @media screen and (max-width:1160px){
-   #nav.responsive{
-       display: block;
-       background-color: rgba(0,0,0,.7);
-       width: 100%;
-       position: absolute;
-       top: 61px;
-       left: 0;
-       padding: 10px 0;
-     }
-     #nav.responsive ul{
-       display: block !important;
-       text-align: center;
-    }
-    #nav.responsive ul li{
-       margin: 5px 0;
-    }
     #inicio .contenido .presentacion h2{
        font-size: 35px;
     }
@@ -942,10 +895,10 @@ footer a{
       }
       #nav.responsive{
         display: block;
-        background-color: rgba(0,0,0,.7);
+        background-color: #013735be;;
         width: 100%;
         position: absolute;
-        top: 61px;
+        top: 84px;
         left: 0;
         padding: 10px 0;
       }
@@ -1057,7 +1010,7 @@ footer a{
       }
       #nav.responsive{
         display: block;
-        background-color: rgba(0,0,0,.7);
+        background-color: #013735be;
         width: 100%;
         position: absolute;
         top: 61px;
@@ -1174,10 +1127,10 @@ footer a{
   }
   #nav.responsive{
     display: block;
-    background-color: rgba(0,0,0,.7);
+    background-color: #013735be;;
     width: 100%;
     position: absolute;
-    top: 61px;
+    top: 84px;
     left: 0;
     padding: 10px 0;
   }
@@ -1291,10 +1244,10 @@ margin: 18px;
    }
    #nav.responsive{
      display: block;
-     background-color: rgba(0,0,0,.7);
+     background-color: #013735be;;
      width: 100%;
      position: absolute;
-     top: 61px;
+     top: 84px;
      left: 0;
      padding: 10px 0;
    }
@@ -1401,7 +1354,7 @@ margin: 18px;
     }
     #nav.responsive{
       display: block;
-      background-color: rgba(0,0,0,.7);
+      background-color: #013735be;;
       width: 100%;
       position: absolute;
       top: 61px;
