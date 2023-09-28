@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 *{
-    font-family: 'Montserrat';
+   font-family: 'Montserrat';
 }
 /* INTRO */
 .intro,
@@ -89,13 +89,13 @@
 /* END INTRO */
 
 .contedorglobal{
-    max-width: 1200px;
+   max-width: 1200px;
 }
 .bodyp{
-    background: linear-gradient(to left, rgb(56, 0, 0),rgb(0, 0, 0));
+   background-color: #111111;
 }
 html{
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 #inicio{
    content: "";
@@ -107,348 +107,199 @@ html{
    background-size: cover;
    z-index: -1;
 }
-#inicio .contenido header{
-    background-color: #013735be;
-    box-shadow: 0 0 20px black;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-}
-#inicio .contenido header .contenido-header{
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
 #inicio .contenido header .contenido-header h1 img{
-    text-align: center;
-    max-width: 60px;
-    color: #ffffff;
-}
-#inicio .contenido header .contenido-header nav ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-#inicio .contenido header .contenido-header nav ul li a{
-   text-decoration: none;
-   color: rgb(255, 255, 255);
-   margin: 0 12px;
-   font-weight: 400;
-   font-size: 1.2rem;
-   transition: .5s;
-}
-#inicio .contenido header .contenido-header nav ul a:hover{
-   color: #00c4fa;
-   font-size: 1.4rem;
-}
-#inicio .contenido header .contenido-header .seleccionado{
-    color: #00c4fa;
+   text-align: center;
+   max-width: 60px;
+   color: #ffffff;
 }
 #inicio .contenido .presentacion{
-    height: 100vh;
-    margin: auto;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   height: 100vh;
+   margin: auto;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 #inicio .contenido .presentacion .bienvenida{
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+   font-size: 16px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 5px;
 }
 #inicio .contenido .presentacion h2{
-    font-size: 40px;
-    margin-bottom: 25px;
-    text-align: center;
-    color: #00c4fa;
+   font-size: 40px;
+   margin-bottom: 25px;
+   text-align: center;
+   color: #00c4fa;
 }
 #inicio .contenido .presentacion .descripcion{
-    max-width: 700px;
-    margin: 25px auto;
-    font-size: 18px;
-    text-align: center;
-    transition: .5s;
+   max-width: 700px;
+   margin: 25px auto;
+   font-size: 18px;
+   text-align: center;
+   transition: .5s;
 }
 #inicio .contenido .presentacion a{
-    text-decoration: none;
-    display: inline-block;
-    margin: 25px;
-    padding: 20px 25px;
-    border: .1px solid white;
-    border-radius: 50px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: .5s;
+   padding: .8rem 2rem;
+   background-color: #00c4fa88;
+   transition: .2s all;
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
 }
 #inicio .contenido .presentacion a:hover{
-    background-color: #00c4fa48;
-}
-#icon-nav{
-    color: rgb(255, 255, 255);
-    display: none;
+   background-color: #00c4fa48;
+   transition: .2s all;
 }
 /* SECCION SOBRE MI */
 #sobremi{
-    max-width: 1100px;
-    margin: auto;
-    padding: 100px 15px;
-    color: rgb(255, 255, 255);
-    display: flex;
+   max-width: 1100px;
+   margin: auto;
+   padding: 100px 15px;
+   color: #dad9d9;
+   display: flex;
 }
 #sobremi .contenedor-foto{
-    max-width: 400px;
-    margin-right: 80px;
+   max-width: 400px;
+   margin-right: 80px;
 }
 #sobremi .contenedor-foto img{
-    width: 400px;
-    border-radius: 20px;
-    background: linear-gradient(rgb(0, 0, 0),rgb(0, 91, 103));
-    box-shadow: 15px 15px 25px black;
+   width: 400px;
+   border-radius: 20px;
+   background: linear-gradient(#000000,#00343b);
+   box-shadow: 15px 15px 25px #000000;
 }
 #sobremi .sobremi{
-    margin: 0 40px;
+   margin: 0 40px;
 }
 #sobremi .sobremi .titulo-seccion{
-    font-size: 22px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    text-decoration-color: #00c4fa;
-    text-decoration-thickness: 3px;
-    text-align: center;
-} 
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #ffffff;
+   text-decoration-color: #00c4fa;
+   text-decoration-thickness: 3px;
+   text-align: center;
+}
 #sobremi .sobremi h2{
-    font-size: 34px;
-    font-weight: bold;
-    margin: 0px;
-    letter-spacing: 2px;
-    text-align: center;
+   font-size: 34px;
+   font-weight: bold;
+   margin: 0px;
+   letter-spacing: 2px;
+   text-align: center;
 }
 #sobremi .sobremi h2 span{
-    color: #00c4fa;
+   color: #0383a7;
 }
 #sobremi .sobremi h3{
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-    text-align: center;
+   font-size: 15px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+   letter-spacing: 1px;
+   text-align: center;
 }
 #sobremi .sobremi p{
-    font-size: 17px;
-    line-height: 25px;
-    color: rgb(255, 255, 255);
-    margin-bottom: 12px;
-    text-align: justify;
+   font-size: 17px;
+   line-height: 25px;
+   color: #ffffff;
+   margin-bottom: 12px;
+   text-align: justify;
 }
 #sobremi .sobremi a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin: 0 15px;
-    font-weight: 400;
-    transition: .5s;
-}
-#sobremi .sobremi a{
-    text-decoration: none;
-    display: inline-block;
-    margin: 20px;
-    padding: 20px 25px;
-    border: .1px solid rgb(255, 255, 255);
-    border-radius: 50px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: .5s;   
+   padding: .8rem 2rem;
+   background-color: #00c4fa88;
+   transition: .2s all;
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
 }
 #sobremi .sobremi a:hover{
-    color: #ffffff;
-    background-color: #00c4fa48;
+   color: #ffffff;
+   background-color: #00c4fa48;
 }
 /* SERVICIOS */
 #servicios{
-    padding: 100px 15px;
-    text-align: center;
-    background-color: #92929261;
+   padding: 100px 15px;
+   text-align: center;
+   background: linear-gradient(rgba(62, 0, 0, 0.781),rgba(28, 0, 0, 0.8)),url("img/IMG_20220802_085659274.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center  center;
+   padding: 100px;
+   text-align: center;
 }
 #servicios .titulo-seccion{
-    font-size: 22px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    text-decoration-color: #00c4fa;
-    text-decoration-thickness: 3px;
+   font-size: 22px;
+   text-transform: uppercase;
+   color: rgb(255, 255, 255);
+   text-decoration: underline;
+   text-decoration-color: #00c4fa;
+   text-decoration-thickness: 3px;
 }
 #servicios .fila{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1100px;
-    margin: 30px auto;
+   display: flex;
+   justify-content: space-around;
+   max-width: 1100px;
+   margin: 30px auto;
 }
 #servicios .fila .servicio{
-    max-width: 350px;
-    background: linear-gradient(rgb(0, 0, 0),rgb(0, 91, 103));
-    padding: 30px;
-    margin:  0 5px;
-    border-radius: 5px;
-    transition: .5s;
-    box-shadow: 15px 15px 25px black;
+   max-width: 350px;
+   background: linear-gradient(rgb(0, 0, 0),rgb(0, 91, 103));
+   padding: 30px;
+   margin:  0 5px;
+   border-radius: 5px;
+   transition: .5s;
+   box-shadow: 15px 15px 25px black;
 }
 #servicios .fila .servicio:hover{
-    box-shadow:  0 0 15px #00c4fa;
+   box-shadow:  0 0 15px #00c4fa;
 }
 #servicios .fila .servicio h4 {
-    font-size: 22px;
-    margin-bottom: 25px;
+   font-size: 22px;
+   margin-bottom: 25px;
 }
 #servicios .fila .servicio .icono{
    font-size: 1rem;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 25px;
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: white;
+   padding: 20px;
+   margin-bottom: 25px;
 }
 #servicios .fila .servicio hr{
-    width: 30%;
-    margin: auto;
-    color: #000000;
-    margin-bottom: 25px;
+   width: 30%;
+   margin: auto;
+   color: #000000;
+   margin-bottom: 25px;
 }
 #servicios .servicio p{
-    color: white;
+   color: white;
 }
 #servicios .servicio li{
-    color: rgb(255, 225, 0);
+   color: rgb(255, 225, 0);
 }
 #servicios .servicio h4{
-    color: white;
+   color: white;
 }
 #servicios .fila .servicio ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
 }
 #servicios .fila .servicio p{
-    font-size: 14px;
-    line-height: 22px;
-}
-/* SECCION HABILIDADES */
-.contenedor-skills{
-    background: linear-gradient(rgba(62, 0, 0, 0.781),rgba(28, 0, 0, 0.8)),url("img/IMG_20220802_085659274.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center  center;
-    padding: 100px;
-    text-align: center;
-}
-.contenedor-skills h3{
-    color: white;
-}
-.contenedor-skills .skill{
-    max-width: 600px;
-    margin: 30px auto;
-}
-.contenedor-skills .skill .info{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-.contenedor-skills .skill .lista{
-    display: inline-block;
-    margin-right: 20px;
-    height: 10px;
-    width: 10px;
-    color: rgb(210, 210, 210);
-}
-.contenedor-skills .skill .barra{
-    background-color: #2d2d2d;
-    width: 100%;
-    height: 6px;
-    margin: 10px 0;
-}
-.contenedor-skills .skill .barra .barra-progreso1{
-    background-color: white;
-    width: 74%;
-    height: 6px;
-    animation: progreso1 2s forwards;
-}
-.contenedor-skills .skill .barra .barra-progreso2{
-    background-color: white;
-    width: 65%;
-    height: 6px;
-    animation: progreso2 2s forwards;
-}
-.contenedor-skills .skill .barra .barra-progreso3{
-    background-color: white;
-    width: 47%;
-    height: 6px;
-    animation: progreso3 2s forwards;
-}
-.contenedor-skills .skill .barra .barra-progreso4{
-    background-color: white;
-    width: 30%;
-    height: 6px;
-    animation: progreso4 2s forwards;
-}
-.contenedor-skills .skill .barra .barra-progreso5{
-    background-color: white;
-    width: 56%;
-    height: 6px;
-    animation: progreso5 2s forwards;
-}
-/* CREAMOS LAS ANIMACIONES */
-@keyframes progreso1{
-    0%{width: 0;
-    }
-    100%{
-        width: 74%;
-    }
-}
-@keyframes progreso2{
-    0%{width: 0;
-    }
-    100%{
-        width: 65%;
-    }
-}
-@keyframes progreso3{
-    0%{width: 0;
-    }
-    100%{
-        width: 47%;
-    }
-}
-@keyframes progreso4{
-    0%{width: 0;
-    }
-    100%{
-        width: 30%;
-    }
-}
-@keyframes progreso5{
-    0%{width: 0;
-    }
-    100%{
-        width: 56%;
-    }
+   font-size: 14px;
+   line-height: 22px;
 }
 /* SECCION DE PORTFOLIO */
 #portfolio {
-    max-width: 1100px;
-    padding: 100px 0;
-    margin: auto;
+   max-width: 1100px;
+   padding: 100px 0;
+   margin: auto;
 }
 #portfolio .titulo-seccion{
     text-align: center;
@@ -640,15 +491,19 @@ footer a{
     box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 #seccionV .h2Git{
-    color: white;
-    text-align: center;
+   color: white;
+   text-align: center;
 }
 /* SECCION RESPONSIVE */
-@media screen and (max-width:1200px){
-   #inicio .contenido .presentacion h2{
-      font-size: 35px;
+@media(max-width:991px){
+   #inicio .contenido .presentacion .descripcion{
+      font-size: 1rem;
+      margin: 10px;
+      padding-bottom: 1rem;
    }
-  
+   #inicio .contenido .presentacion h2{
+      font-size: 1rem;
+   }
    #sobremi{
       padding: 50px 0;
       display: flex;
@@ -658,8 +513,7 @@ footer a{
       margin: auto;
    }
    #sobremi .contenedor-foto img{
-    width: 100%;  
-    padding: 8px;
+      display: none;
    }
    #sobremi .sobremi .titulo-seccion{
       text-align: center;
@@ -669,743 +523,6 @@ footer a{
       font-size: 25px;
       text-align: left;
    }
-   #servicios{
-      padding: 50px 15px;
-   }
-   #servicios .fila{
-      display: flex;
-   }
-   #servicios .fila .servicio{
-      margin: 15px auto;
-   }
-   .contenedor-skills{
-      padding: 50px 20px;
-   }
-   #portfolio{
-      padding: 50px 15px;
-   }
-   #portfolio .fila{
-      display: block;
-   }
-   #portfolio .fila .proyecto{
-      margin:  10px auto;
-   }
-   #contacto{
-      padding: 50px 15px;
-   }
-   #contacto .contenedor-form .mitad{
-      margin-bottom: 15px;
-      display: block;
-   }
-   #contacto .contenedor-form .mitad input{
-      width: 100%;
-      margin-bottom: 15px;
-   }
-   #descripcionProj{
-      width: 100%;
-      height: 700px;
-      padding: auto;
-   }
-   #descripcionProj p{
-      font-size: 16px;
-   }
-   #seccionV .videoCG{
-      width: 100%;
-   }
-   #seccionV .contvideo{
-      display: flex;
-      margin: 0;
-   }
-   #navProj{
-      display: block;
-      width: 100%;
-      top: 61px;
-      left: 0;
-      padding: 10px 0;
-      
-   }
-}
-@media screen and (max-width:1100px){
-   #inicio .contenido .presentacion h2{
-      font-size: 35px;
-   }
-   #sobremi{
-        padding: 50px 0;
-        display: flex;
-     }
-     #sobremi .contenedor-foto{
-        max-width: 600px;
-        margin: auto;
-     }
-     #sobremi .contenedor-foto img{
-      width: 100%;  
-      padding: 8px;
-     }
-     #sobremi .sobremi .titulo-seccion{
-        text-align: center;
-        padding: 15px;
-     }
-     #sobremi .sobremi h2{
-        font-size: 25px;
-        text-align: left;
-     }
-     #servicios{
-        padding: 50px 15px;
-     }
-     #servicios .fila{
-        display: block;
-     }
-     #servicios .fila .servicio{
-        margin: 15px auto;
-     }
-     .contenedor-skills{
-        padding: 50px 20px;
-     }
-     #portfolio{
-        padding: 50px 15px;
-     }
-     #portfolio .fila{
-        display: block;
-     }
-     #portfolio .fila .proyecto{
-        margin:  10px auto;
-     }
-     #contacto{
-        padding: 50px 15px;
-     }
-     #contacto .contenedor-form .mitad{
-        margin-bottom: 15px;
-        display: block;
-     }
-     #contacto .contenedor-form .mitad input{
-        width: 100%;
-        margin-bottom: 15px;
-     }
-     #descripcionProj{
-        width: 95%;
-        height: 275px;
-     }
-     #descripcionProj p{
-        font-size: 16px;
-     }
-     #seccionV .videoCG{
-        width: 100%;
-     }
-     #seccionV .contvideo{
-        display: flex;
-        margin: 0;
-     }
-     #navProj{
-        display: block;
-        width: 100%;
-        top: 61px;
-        left: 0;
-        padding: 10px 0;
-        
-     }
-}
-@media screen and (max-width:1160px){
-    #inicio .contenido .presentacion h2{
-       font-size: 35px;
-    }
-   
-    #sobremi{
-       padding: 50px 0;
-       display: flex;
-    }
-    #sobremi .contenedor-foto{
-       max-width: 600px;
-       margin: auto;
-    }
-    #sobremi .contenedor-foto img{
-     width: 100%;  
-     padding: 8px;
-    }
-    #sobremi .sobremi .titulo-seccion{
-       text-align: center;
-       padding: 15px;
-    }
-    #sobremi .sobremi h2{
-       font-size: 25px;
-       text-align: center;
-    }
-    #servicios{ 
-       padding: 50px 15px;
-    }
-    #servicios .fila{
-       display: block;
-    }
-    #servicios .fila .servicio{
-       margin: 15px auto;
-    }
-    .contenedor-skills{
-       padding: 50px 20px;
-    }
-    #portfolio{
-       padding: 50px 15px;
-    }
-    #portfolio .fila{
-       display: block;
-    }
-    #portfolio .fila .proyecto{
-       margin:  10px auto;
-    }
-    #contacto{
-       padding: 50px 15px;
-    }
-    #contacto .contenedor-form .mitad{
-       margin-bottom: 15px;
-       display: block;
-    }
-    #contacto .contenedor-form .mitad input{
-       width: 100%;
-       margin-bottom: 15px;
-    }
-    #descripcionProj{
-       width: 95%;
-       height: 275px;
-    }
-    #descripcionProj p{
-       font-size: 16px;
-    }
-    #seccionV .videoCG{
-       width: 100%;
-    }
-    #seccionV .contvideo{
-       display: flex;
-       margin: 0;
-    }
-    #navProj{
-       display: block;
-       width: 100%;
-       top: 61px;
-       left: 0;
-       padding: 10px 0;
-       
-    }
-}
-/* EMPIEZA SECCION RESPONSIVE */
-@media screen and (max-width:844px){
-    .redes{
-        display: none;
-    
-      }
-      #nav{
-        display: none;
-      }
-      #nav.responsive{
-        display: block;
-        background-color: #013735be;;
-        width: 100%;
-        position: absolute;
-        top: 84px;
-        left: 0;
-        padding: 10px 0;
-      }
-      #nav.responsive ul{
-        display: block !important;
-        text-align: center;
-     }
-     #nav.responsive ul li{
-        margin: 5px 0;
-     }
-     #icon-nav{
-      display: block;
-     }
-    
-     #inicio .contenido .presentacion h2{
-        font-size: 25px;
-     }
-     #inicio .presentacion .descripcion {
-        font-size: 10px;    
-     }
-    
-     #sobremi{
-        padding: 50px 0;
-        display: block;
-     }
-     #sobremi .contenedor-foto{
-        max-width: 600px;
-        margin: auto;
-     }
-     #sobremi .contenedor-foto img{
-      width: 90%;  
-      margin: 18px;
-     }
-     #sobremi .sobremi .titulo-seccion{
-        text-align: center;
-     }
-     #sobremi .sobremi h2{
-        font-size: 25px;
-        text-align: center; 
-      }
-      #sobremi .sobremi h3{
-         text-align: center;
-      }
-      #sobremi .sobremi p{
-         text-align: justify;
-      }
-     #servicios{
-        padding: 50px 15px;
-     }
-     #servicios .fila{
-        display: block;
-     }
-     #servicios .fila .servicio{
-        margin: 15px auto;
-     }
-     .contenedor-skills{
-        padding: 50px 20px;
-     }
-     #portfolio{
-        padding: 50px 15px;
-     }
-     #portfolio .fila{
-        display: block;
-     }
-     #portfolio .fila .proyecto{
-        margin:  10px auto;
-     }
-     #contacto{
-        padding: 50px 15px;
-     }
-     #contacto .contenedor-form .mitad{
-        margin-bottom: 15px;
-        display: block;
-     }
-     #contacto .contenedor-form .mitad input{
-        width: 100%;
-        margin-bottom: 15px;
-     }
-     #descripcionProj{
-        width: 95%;
-        height: 445px;
-     }
-     #descripcionProj p{
-        font-size: 16px;
-     }
-     #seccionV .videoCG{
-        width: 100%;
-     }
-     #seccionV .contvideo{
-        display: flex;
-        margin: 0;
-     }
-     #navProj{
-        display: block;
-        width: 100%;
-        top: 61px;
-        left: 0;
-        padding: 10px 0;
-        
-     }
-}
-@media screen and (max-width:620px){
-    .redes{
-        display: none;
-    
-      }
-      #nav{
-        display: none;
-      }
-      #nav.responsive{
-        display: block;
-        background-color: #013735be;
-        width: 100%;
-        position: absolute;
-        top: 61px;
-        left: 0;
-        padding: 10px 0;
-      }
-      #nav.responsive ul{
-        display: block !important;
-        text-align: center;
-     }
-     #nav.responsive ul li{
-        margin: 5px 0;
-     }
-     #icon-nav{
-      display: block;
-     }
-    
-     #inicio .contenido .presentacion h2{
-        font-size: 25px;
-     }
-     #inicio .presentacion .descripcion {
-        font-size: 10px;
-        padding: 10px;
-        
-
-     }
-    
-     #sobremi{
-        padding: 50px 0;
-        display: block;
-     }
-     #sobremi .contenedor-foto{
-        max-width: 600px;
-     }
-   #sobremi .contenedor-foto img{
-    width: 90%;  
-    margin: 18px;
-   }
-   #sobremi .sobremi .titulo-seccion{
-      text-align: center;
-   }
-   #sobremi .sobremi h2{
-      font-size: 25px;
-      text-align: center; 
-    }
-    #sobremi .sobremi h3{
-       text-align: center;
-    }
-    #sobremi .sobremi p{
-       text-align: justify;
-    }
-     #servicios{
-        padding: 50px 15px;
-     }
-     #servicios .fila{
-        display: block;
-     }
-     #servicios .fila .servicio{
-        margin: 15px auto;
-     }
-     .contenedor-skills{
-        padding: 50px 20px;
-     }
-     #portfolio{
-        padding: 50px 15px;
-     }
-     #portfolio .fila{
-        display: block;
-     }
-     #portfolio .fila .proyecto{
-        margin:  10px auto;
-     }
-     #contacto{
-        padding: 50px 15px;
-     }
-     #contacto .contenedor-form .mitad{
-        margin-bottom: 15px;
-        display: block;
-     }
-     #contacto .contenedor-form .mitad input{
-        width: 100%;
-        margin-bottom: 15px;
-     }
-     #descripcionProj{
-        width: 95%;
-        height: 445px;
-     }
-     #descripcionProj p{
-        font-size: 16px;
-     }
-     #seccionV .videoCG{
-        width: 100%;
-     }
-     #seccionV .contvideo{
-        display: flex;
-        margin: 0;
-     }
-     #navProj{
-        display: block;
-        width: 100%;
-        top: 61px;
-        left: 0;
-        padding: 10px 0;
-        
-     }
-}
-@media screen and (max-width:412px){
-  .redes{
-    display: none;
-
-  }
-  #nav{
-    display: none;
-  }
-  #nav.responsive{
-    display: block;
-    background-color: #013735be;;
-    width: 100%;
-    position: absolute;
-    top: 84px;
-    left: 0;
-    padding: 10px 0;
-  }
-  #nav.responsive ul{
-    display: block !important;
-    text-align: center;
- }
- #nav.responsive ul li{
-    margin: 5px 0;
- }
- #icon-nav{
-  display: block;
- }
-
- #inicio .contenido .presentacion h2{
-   font-size: 25px;
-}
-#inicio .presentacion .descripcion {
-   font-size: 10px;
-   padding: 10px;
-   
-
-}
-
-#sobremi{
-   padding: 50px 0;
-   display: block;
-}
-#sobremi .contenedor-foto{
-   max-width: 600px;
-}
-#sobremi .contenedor-foto img{
-width: 90%;  
-margin: 18px;
-}
-#sobremi .sobremi .titulo-seccion{
- text-align: center;
-}
-#sobremi .sobremi h2{
- font-size: 25px;
- text-align: center; 
-}
-#sobremi .sobremi h3{
-  text-align: center;
-}
-#sobremi .sobremi p{
-  text-align: justify;
-}
- #servicios{
-    padding: 50px 15px;
- }
- #servicios .fila{
-    display: block;
- }
- #servicios .fila .servicio{
-    margin: 15px auto;
- }
- .contenedor-skills{
-    padding: 50px 20px;
- }
- #portfolio{
-    padding: 50px 15px;
- }
- #portfolio .fila{
-    display: block;
- }
- #portfolio .fila .proyecto{
-    margin:  10px auto;
- }
- #contacto{
-    padding: 50px 15px;
- }
- #contacto .contenedor-form .mitad{
-    margin-bottom: 15px;
-    display: block;
- }
- #contacto .contenedor-form .mitad input{
-    width: 100%;
-    margin-bottom: 15px;
- }
- #descripcionProj{
-    width: 95%;
-    height: 445px;
- }
- #descripcionProj p{
-    font-size: 15px;
- }
- #seccionV .videoCG{
-    width: 100%;
- }
- #seccionV .contvideo{
-    display: flex;
-    margin: 0;
- }
- #navProj{
-    display: block;
-    width: 100%;
-    top: 61px;
-    left: 0;
-    padding: 10px 0;
-    
- }
-}
-@media screen and (max-width:390px){
-   .redes{
-     display: none;
- 
-   }
-   #nav{
-     display: none;
-   }
-   #nav.responsive{
-     display: block;
-     background-color: #013735be;;
-     width: 100%;
-     position: absolute;
-     top: 84px;
-     left: 0;
-     padding: 10px 0;
-   }
-   #nav.responsive ul{
-     display: block !important;
-     text-align: center;
-  }
-  #nav.responsive ul li{
-     margin: 5px 0;
-  }
-  #icon-nav{
-   display: block;
-  }
- 
-  #inicio .contenido .presentacion h2{
-   font-size: 25px;
-   margin: 3px;
-}
-#inicio .presentacion .descripcion {
-   font-size: 10px;
-   padding: 10px;
-   text-align: justify;
-   
-
-}
-
-#sobremi{
-   padding: 50px 0;
-   display: block;
-}
-#sobremi .contenedor-foto{
-   max-width: 600px;
-}
-#sobremi .contenedor-foto img{
-width: 90%;  
-margin: 18px;
-}
-#sobremi .sobremi .titulo-seccion{
- text-align: center;
-}
-#sobremi .sobremi h2{
- font-size: 25px;
- text-align: center; 
-}
-#sobremi .sobremi h3{
-  text-align: center;
-}
-#sobremi .sobremi p{
-  text-align: justify;
-}
-  .contenedor-skills{
-     padding: 50px 20px;
-  }
-  #portfolio{
-     padding: 50px 15px;
-  }
-  #portfolio .fila{
-     display: block;
-  }
-  #portfolio .fila .proyecto{
-     margin:  10px auto;
-  }
-  #contacto{
-     padding: 50px 15px;
-  }
-  #contacto .contenedor-form .mitad{
-     margin-bottom: 15px;
-     display: block;
-  }
-  #contacto .contenedor-form .mitad input{
-     width: 100%;
-     margin-bottom: 15px;
-  }
-  #descripcionProj{
-     width: 95%;
-     height: 445px;
-  }
-  #descripcionProj p{
-     font-size: 14px;
-  }
-  #seccionV .videoCG{
-     width: 100%;
-  }
-  #seccionV .contvideo{
-     display: flex;
-     margin: 0;
-  }
-  #navProj{
-     display: block;
-     width: 100%;
-     top: 61px;
-     left: 0;
-     padding: 10px 0;
-     
-  }
-}
-@media screen and (max-width:360px){
-    .redes{
-      display: none;
-  
-    }
-    #nav{
-      display: none;
-    }
-    #nav.responsive{
-      display: block;
-      background-color: #013735be;;
-      width: 100%;
-      position: absolute;
-      top: 61px;
-      left: 0;
-      padding: 10px 0;
-    }
-    #nav.responsive ul{
-      display: block !important;
-      text-align: center;
-   }
-   #nav.responsive ul li{
-      margin: 5px 0;
-   }
-   #icon-nav{
-    display: block;
-   }
-  
-   #inicio .contenido .presentacion h2{
-      font-size: 25px;
-   }
-   #inicio .presentacion .descripcion {
-      font-size: 10px;
-      padding: 10px;
-      
-
-   }
-  
-   #sobremi{
-      padding: 50px 0;
-      display: block;
-   }
-   #sobremi .contenedor-foto{
-      max-width: 600px;
-   }
- #sobremi .contenedor-foto img{
-  width: 90%;  
-  margin: 18px;
- }
- #sobremi .sobremi .titulo-seccion{
-    text-align: center;
- }
- #sobremi .sobremi h2{
-    font-size: 25px;
-    text-align: center; 
-  }
-  #sobremi .sobremi h3{
-     text-align: center;
-  }
-  #sobremi .sobremi p{
-     text-align: justify;
-  }
    #servicios{
       padding: 50px 15px;
    }
@@ -1440,10 +557,10 @@ margin: 18px;
    }
    #descripcionProj{
       width: 95%;
-      height: 445px;
+      height: 275px;
    }
    #descripcionProj p{
-      font-size: 14px;
+      font-size: 16px;
    }
    #seccionV .videoCG{
       width: 100%;
@@ -1458,6 +575,5 @@ margin: 18px;
       top: 61px;
       left: 0;
       padding: 10px 0;
-      
    }
 }

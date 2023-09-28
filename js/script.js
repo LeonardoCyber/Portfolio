@@ -1,24 +1,3 @@
-function seleccionar(link){
-    let opciones = document.querySelectorAll('#links a');
-    opciones[0].className="";
-    opciones[1].className="";
-    opciones[2].className="";
-    opciones[3].className="";
-    opciones[4].className="";
-    link.className="seleccionado";
-
-    let x = document.getElementById("nav");
-    x.className = "seleccionado";
-}
-//funcion que muestra el menu responsive
-function responsiveMenu(){
-    let x =document.getElementById("nav");
-    if (x.className ===""){
-        x.className = "responsive";
-    }else{
-        x.className = "";
-    }
-}
 window.onscroll=function(){
     efectoHabilidades()
 };
@@ -33,5 +12,5 @@ function efectoHabilidades(){
         document.getElementById("bd").classList.add(barra-progreso5);
 
 
-    } 
+    }
 }

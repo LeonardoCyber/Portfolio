@@ -11,7 +11,7 @@
     <title>Portfolio Leonardo Bolívar</title>
 </head>
 <body class="bodyp">
-    <div class="intro">
+    <!-- <div class="intro">
         <img src="./img/logoPortf (1).png" alt="logo">
         <h2 class="logo">
             <span class="logo-parts">B</span>
@@ -27,29 +27,11 @@
             <span class="logo-parts">S</span>
         </h2>
         <p class="intro__parrafo">Portafolio de Leonardo Bolívar</p>
-    </div>
+    </div> -->
 <div class="contnedorglobal">
     <!-- SECCIÓN INICIO -->
     <section id="inicio">
         <div class="contenido">
-            <header>
-                <div class="contenido-header">
-                    <h1><img src="img/logoPortf (1).png" alt=""></h1>
-                    <nav id="nav" class="">
-                        <ul>
-                            <li><a href="#inicio" onclick="seleccionar(this)">Inicio</a></li>
-                            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
-                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
-                            <li><a href="#portfolio" onclick="seleccionar(this)">Portfolio</a></li>
-                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
-                        </ul>
-                    </nav>
-                <!-- ICONOS DEL MENU RESPONSIVE -->
-                <div id="icon-nav" onclick="responsiveMenu()">
-                <i class="fa-solid fa-bars"></i>
-                </div>
-                </div>
-            </header>
             <!-- SOCIAL BAR -->
             <div class="social-bar">
                 <div class="icon"><a href="https://github.com/LeonardoCyber" class="icon"><i class="fa-brands fa-github"></i></a></div>
@@ -74,16 +56,12 @@
             <h2><span>Leonardo Bolívar</span></h2>
             <h3>Desarrollador jr, formandome como Full stack</h3>
             <p>Hola, soy Leonardo Bolívar. Programador jr autodidacta. Estudiante con mucha visión y convicción para convertirme en un excelente full stack developer y mucho mas. Mi nivel como programador es medio... Por ahora, siempre quiero obtener más conocimientos y buenas prácticas. A continuación podrá ver qué conocimientos poseo, un poco sobre mí, mis proyectos y habilidades quiero dejar en claro que todos los días estoy estudiando para mejorar en todos los aspectos. Me considero una persona apasionada por lo que hago, porque lo hago con esmeró y cariño, siempre he tenido claro que la constancia y dedicación vale más que el talento, prefiero ser una persona dedicada y constante que alguien simplemente talentoso, mi norte es convertirme en un excepcional desarrollador full stack, y se que lo lograre con dedicación y mucha paciencia, soy perfeccionista y muy atento a los detalles, me integro fácilmente a un grupo de trabajo y también me desenvuelvo solo para poder buscar soluciones a un problema en concreto, me considero amable, muy paciente, pongo atención a las demás personas para tomar sus críticas constructivas y mejorar, si me integro a tu equipo de trabajo te aseguro que no te decepcionaré.</p>
-            <a target="_blank" href="static/CV_2023-08-10_LEONARDO_BOLIVAR.pdf">Descarga CV</a>
+            <a class="btn-1" target="_blank" href="static/CV_2023-08-10_LEONARDO_BOLIVAR.pdf">Descarga CV</a>
         </div>
     </section>
     <!-- SECIION SERVICIOS -->
     <section id="servicios">
         <h3 class="titulo-seccion">MIS SERVICIOS</h3>
-        <br>
-        <br>
-        <br>
-        <h4 style="text-shadow: 0 0 10px white; color: white;">FRONTEND</h4>
         <div class="fila">
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-brush"></i></span>
@@ -117,10 +95,6 @@
                 <p>Tengo conocimientos sobre edición de videos, sonidos, imágenes, formatos, puedo crear un vídeo de calidad profesional, sea para marketing o contenidos varios.</p>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <h4 style="text-shadow: 0 0 10px white; color: white;" >BACKEND</h4>
         <div class="fila">
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-code"></i></span>
@@ -144,54 +118,6 @@
             </div>
         </div>
     </section>
-    <!-- SECCION HABILIDADES -->
-    <div class="contenedor-skills" id="skills">
-        <h3>HABILIDADES</h3>
-        <div class="skill">
-            <div class="info">
-                <p><span class="lista"><i class="fa-solid fa-file-code">_HTML&CSS</i></span></p>
-                <span class="porcentaje"></span>
-            </div>
-            <div class="barra">                <div id="html" class="barra-progreso1"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <div class="info">
-                <p><span class="lista"><i class="fa-brands fa-python">_Python</i></span></p>
-                <span class="porcentaje"></span>
-            </div>
-            <div class="barra">
-                <div id="p" class="barra-progreso2"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <div class="info">
-                <p><span class="lista"><i class="fa-brands fa-python">_Django</i></span></p>
-                <span class="porcentaje"></span>
-            </div>
-            <div class="barra">
-                <div id="d" class="barra-progreso3"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <div class="info">
-                <p><span class="lista"><i class="fa-brands fa-square-js">_JavaScript</i></span></p>
-                <span class="porcentaje"></span>
-            </div>
-            <div class="barra">
-                <div id="js" class="barra-progreso4"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <div class="info">
-                <p><span class="lista"><i class="fa-solid fa-database">_BBDD</i></span></p>
-                <span class="porcentaje"></span>
-            </div>
-            <div class="barra">
-                <div id="bd" class="barra-progreso5"></div>
-            </div>
-        </div>
-    </div>
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio">
         <h3 class="titulo-seccion">MIS PROYECTOS</h3>
@@ -215,15 +141,6 @@
                 </div>
             </div>
         </div>
-        <div class="altproject">
-        <h3 class="altproject__title">Próximanete.</h3>
-        <p class="altproject__parrafo">
-            Estoy trabajando en otros proyectos que estaré subiendo por aquí.
-            <p class="altproject__parrafo">
-                También pueden ver mi GitHub y mi Linkedin.
-            </p>
-        </p>
-    </div>
     </section>
     <br>
     <br>
