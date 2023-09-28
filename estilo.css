@@ -259,7 +259,6 @@ html{
 }
 #portfolio .fila .proyecto{
    max-width: 400px;
-   box-shadow: 0 0 5px #00c4fa;
    margin: 0 10px;
    position: relative;
    overflow: hidden;
@@ -472,7 +471,6 @@ footer a{
    }
    #portfolio .fila .proyecto{
       max-width: 400px;
-      box-shadow: 0 0 5px #00c4fa;
       margin: 0 10px;
       position: relative;
       overflow: hidden;
