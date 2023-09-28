@@ -219,7 +219,28 @@ html{
    background-color: #00c4fa48;
 }
 /* SERVICIOS */
-
+.skills{
+   text-align: center;
+   padding: 20px;
+   color: #fff;
+}
+.skills{
+   background-image: linear-gradient(#0000009d,#00000098),url(/img/IMG_20220802_085659274.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.skill-list{
+   list-style: none;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+}
+.skill-list li img{
+   width: 100px;
+   max-width: 100%;
+   height: auto;
+}
 /* SECCION DE PORTFOLIO */
 #portfolio {
    padding: 100px 0;
@@ -441,7 +462,13 @@ footer a{
    }
    #sobremi .sobremi h2{
       font-size: 25px;
-      text-align: left;
+      text-align: center;
+   }
+   .skill-list li img{
+      width: 50px;
+   }
+   .skill-list{
+      padding: 1rem;
    }
    #portfolio .fila .proyecto{
       max-width: 400px;
