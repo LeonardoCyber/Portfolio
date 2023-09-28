@@ -219,79 +219,7 @@ html{
    background-color: #00c4fa48;
 }
 /* SERVICIOS */
-#servicios{
-   padding: 100px 15px;
-   text-align: center;
-   background: linear-gradient(rgba(62, 0, 0, 0.781),rgba(28, 0, 0, 0.8)),url("img/IMG_20220802_085659274.jpg");
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center  center;
-   padding: 100px;
-   text-align: center;
-}
-#servicios .titulo-seccion{
-   font-size: 22px;
-   text-transform: uppercase;
-   color: rgb(255, 255, 255);
-}
-#servicios .fila{
-   display: flex;
-   justify-content: space-around;
-   max-width: 1100px;
-   margin: 30px auto;
-}
-#servicios .fila .servicio{
-   max-width: 350px;
-   background: linear-gradient(rgb(0, 0, 0),rgb(0, 91, 103));
-   padding: 30px;
-   margin:  0 5px;
-   border-radius: 5px;
-   transition: .5s;
-   box-shadow: 15px 15px 25px black;
-}
-#servicios .fila .servicio:hover{
-   box-shadow:  0 0 15px #00c4fa;
-}
-#servicios .fila .servicio h4 {
-   font-size: 22px;
-   margin-bottom: 25px;
-}
-#servicios .fila .servicio .icono{
-   font-size: 1rem;
-   display: inline-block;
-   width: 60px;
-   height: 60px;
-   border-radius: 50%;
-   background-color: white;
-   padding: 20px;
-   margin-bottom: 25px;
-}
-#servicios .fila .servicio hr{
-   width: 30%;
-   margin: auto;
-   color: #000000;
-   margin-bottom: 25px;
-}
-#servicios .servicio p{
-   color: white;
-}
-#servicios .servicio li{
-   color: rgb(255, 225, 0);
-}
-#servicios .servicio h4{
-   color: white;
-}
-#servicios .fila .servicio ul{
-   list-style: none;
-   display: flex;
-   justify-content: space-between;
-   margin: 10px;
-}
-#servicios .fila .servicio p{
-   font-size: 14px;
-   line-height: 22px;
-}
+
 /* SECCION DE PORTFOLIO */
 #portfolio {
    padding: 100px 0;
@@ -342,53 +270,53 @@ html{
 }
 /* SECCION CONTACTO */
 #contacto{
-    padding: 100px 15px;
+   padding: 100px 15px;
 }
 #contacto .titulo-seccion{
-    margin-bottom: 20px;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: aliceblue;
-    text-decoration: underline;
-    text-decoration-color:#00c4fa ;
-    text-decoration-thickness:3px ;
-    text-align: center;
+   margin-bottom: 20px;
+   font-size: 22px;
+   text-transform: uppercase;
+   color: aliceblue;
+   text-decoration: underline;
+   text-decoration-color:#00c4fa ;
+   text-decoration-thickness:3px ;
+   text-align: center;
 }
 #contacto .contenedor-form{
-    max-width: 1100px;
-    margin: auto;
+   max-width: 1100px;
+   margin: auto;
 }
 #contacto .contenedor-form .fila{
-    margin-bottom: 15px;
+   margin-bottom: 15px;
 }
 #contacto .contenedor-form .mitad{
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
 }
 #contacto .contenedor-form input,
 #contacto .contenedor-form textarea{
-    padding: 20px;
-    border-radius: 20px;
-    border: none;
-    border: 1px solid #000000;   
+   padding: 20px;
+   border-radius: 20px;
+   border: none;
+   border: 1px solid #000000;
 }
 #contacto .contenedor-form .mitad input{
-    width: 48%;
+   width: 48%;
 }
 #contacto .contenedor-form .input-full{
-    width: 100%;
+   width: 100%;
 }
 #contacto .btn-enviar{
-    display: block;
-    margin: auto;
-    cursor: pointer;
-    transition: .5s;
-    padding: 10px 15px;
-    font-size: 18px;
-    font-weight: bold;
+   display: block;
+   margin: auto;
+   cursor: pointer;
+   transition: .5s;
+   padding: 10px 15px;
+   font-size: 18px;
+   font-weight: bold;
 }
 #contacto .btn-enviar:hover{
-    background-color: #00c4fa;
+   background-color: #00c4fa;
 }
 .altproject{
    border: 1px solid white;
@@ -406,82 +334,81 @@ html{
 }
 /* FOOTER */
 footer{
-    background-color: #000000;
-    color: #ffffff43;
-    text-align: center;
-    padding: 35px;
+   background-color: #000000;
+   color: #ffffff43;
+   text-align: center;
+   padding: 35px;
 }
 footer a{
    color: #ffffff;
    padding: 5px;
-   
 }
 /* SECCION PROJECTOS */
 .bodyPro{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.864),rgba(0, 0, 0, 0.872)), url(img/capinicio.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.864),rgba(0, 0, 0, 0.872)), url(img/capinicio.png);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
 }
 #navProj{
-    background-color: rgba(0, 0, 0, 0.513);
-    color: white;
-    margin: auto;
-    height: 60px;
-    transition: .5s;
-    text-align: center;
-    font-size: 33px;
+   background-color: rgba(0, 0, 0, 0.513);
+   color: white;
+   margin: auto;
+   height: 60px;
+   transition: .5s;
+   text-align: center;
+   font-size: 33px;
 }
 #navProj .btnVolver{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 75%;
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 75%;
 }
 #navProj .btnVolver:hover{
-    color: rgb(0, 159, 167);
+   color: rgb(0, 159, 167);
 }
 #descripcionProj .parrafop p{
-    text-align: justify;
-    color: white;
-    margin: 20px;
+   text-align: justify;
+   color: white;
+   margin: 20px;
 }
 #descripcionProj h2{
    text-align: center;
-   color: white; 
+   color: white;
    text-shadow: 0 0 15px white;
-    transition: .5s;
+   transition: .5s;
 }
 #descripcionProj p{
-    text-align: center;
-    margin: 40px;
-    transition: .5s;
+   text-align: center;
+   margin: 40px;
+   transition: .5s;
 }
 #descripcionProj span{
-  text-shadow: 0 0 15px #00c4fa;
-  color: #00c4fa;
+   text-shadow: 0 0 15px #00c4fa;
+   color: #00c4fa;
 }
 #seccionV .github{
-    text-align: center;
-    margin: 20px;
+   text-align: center;
+   margin: 20px;
 }
 #seccionV i{
-    color: white;
-    font-size: 40px;
-    text-shadow: 0 0 15px white;
-    transition: .5s;
+   color: white;
+   font-size: 40px;
+   text-shadow: 0 0 15px white;
+   transition: .5s;
 }
 #seccionV i:hover{
-    text-shadow: 0 0 15px rgb(0, 190, 190);   
+   text-shadow: 0 0 15px rgb(0, 190, 190);
 }
 #seccionV .contvideo{
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
 }
 #seccionV .videoCG{
-    border: solid 2px #ffffff;
-    box-shadow: 0 0 10px rgb(255, 255, 255);
+   border: solid 2px #ffffff;
+   box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 #seccionV .h2Git{
    color: white;
