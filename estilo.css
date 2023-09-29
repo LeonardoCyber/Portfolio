@@ -41,15 +41,15 @@
    transition: .5s;
 }
 .icon a i:hover{
-   color: #430606;
+   color: #2c2c2c;
    transition: .5s;
 }
 .social-bar a i{
    color: #fff;
    border-radius: 50%;
    padding: .5rem;
-   background-color: #065d5b;
-   border: .1px solid #065d5b;
+   background-color: #9c9203;
+   border: .1px solid #a5a5a5;
    box-shadow: 5px 5px 10px black;
    transition: .5s;
 }
@@ -92,7 +92,7 @@
    max-width: 1200px;
 }
 .bodyp{
-   background-color: #cccccc;
+   background-color: #1c1a29;
 }
 html{
    scroll-behavior: smooth;
@@ -137,6 +137,7 @@ html{
    justify-content: center;
 }
 #inicio .contenido .presentacion .bienvenida{
+   color: #9c9203;
    font-size: 16px;
    margin-bottom: 20px;
    text-transform: uppercase;
@@ -157,14 +158,14 @@ html{
 }
 #inicio .contenido .presentacion a{
    padding: .8rem 2rem;
-   background-color: #00c4fa88;
+   background-color: #928903;
    transition: .2s all;
    color: #fff;
    text-transform: uppercase;
    text-decoration: none;
 }
 #inicio .contenido .presentacion a:hover{
-   background-color: #00c4fa48;
+   background-color: #9289039c;
    transition: .2s all;
 }
 /* SECCION SOBRE MI */
@@ -182,7 +183,7 @@ html{
 #sobremi .contenedor-foto img{
    width: 400px;
    border-radius: 20px;
-   background: linear-gradient(#000000,#00343b);
+   background: linear-gradient(#000000,#928903);
    box-shadow: 15px 15px 25px #000000;
 }
 #sobremi .sobremi{
@@ -191,8 +192,7 @@ html{
 #sobremi .sobremi .titulo-seccion{
    font-size: 22px;
    text-transform: uppercase;
-   color: #1b1b1b;
-   text-decoration-color: #00c4fa;
+   color: #cecdcd;
    text-decoration-thickness: 3px;
    text-align: center;
 }
@@ -204,9 +204,10 @@ html{
    text-align: center;
 }
 #sobremi .sobremi h2 span{
-   color: #038aaf;
+   color: #9c9203;
 }
 #sobremi .sobremi h3{
+   color: #dadada;
    font-size: 15px;
    font-weight: 500;
    text-transform: uppercase;
@@ -217,15 +218,15 @@ html{
 #sobremi .sobremi p{
    font-size: 17px;
    line-height: 25px;
-   color: #111111;
-   margin-bottom: 1.2rem;
+   color: #d1d1d1;
+   margin-bottom: 1.5rem;
    text-align: left;
 }
 #sobremi .sobremi a{
    padding: .8rem 2rem;
-   background-color: #02c8ffb4;
+   background-color: #9c9203;
    transition: .2s all;
-   color: #030303;
+   color: #d8d8d8;
    box-shadow: 3px 5px 10px #000000;
    text-transform: uppercase;
    text-decoration: none;
