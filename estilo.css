@@ -29,54 +29,17 @@
    display:flex;
    transition: .5s;
 }
-.icon a i:hover{
-   color: #2c2c2c;
-   transition: .5s;
-}
 .social-bar a i{
    color: #252525;
    border-radius: 50%;
    padding: .5rem;
    background-color: #fdda66;
-   border: .1px solid #a5a5a5;
    box-shadow: 5px 5px 10px black;
    transition: .5s;
 }
-.intro img{
-   top: 100px;
-   position: absolute;
+.social-bar i:hover{
+   scale: 1.3;
 }
-.logo{
-   font-size: 2.5rem;
-   color: white;
-}
-.logo-parts{
-   position: relative;
-   display: inline-block;
-   bottom: -60px;
-   font-size: 15px;
-   opacity: 0;
-   color: white;
-}
-.logo-parts.active{
-   bottom: 0;
-   opacity: 1;
-   transition: ease-in-out .5s ;
-   color: white;
-}
-.logo-parts.fade{
-   bottom: 250px;
-   opacity: 0;
-   transition: ease-in-out .5s;
-   color: white;
-}
-.intro__parrafo{
-   margin-top: 25px;
-   font-size: 22px;
-   color: gray;
-}
-/* END INTRO */
-
 .contedorglobal{
    max-width: 1200px;
 }
@@ -119,7 +82,7 @@ html{
 }
 .header{
    background-image: linear-gradient(180deg , #000000af 0%, #000000a9 100%), url('./img/bginicio.jpg');
-   background-position: center bottom;
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 50vh;
@@ -251,7 +214,6 @@ html{
 }
 #sobremi .sobremi p{
    font-size: 17px;
-   line-height: 25px;
    color: #ffffff;
    margin-bottom: 1.5rem;
    text-align: left;
@@ -480,11 +442,11 @@ html{
       font-size: 1rem;
       text-align: left;
    }
-   .skill-list li img{
-      width: 50px;
-   }
    .skill-list{
       padding: 1rem;
+   }
+   #sobremi .sobremi .skills h2{
+      padding-bottom: 1rem;
    }
    #portfolio .fila .proyecto{
       max-width: 400px;
