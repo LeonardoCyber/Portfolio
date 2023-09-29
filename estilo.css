@@ -333,6 +333,7 @@ html{
 #contacto .contenedor-form input,
 #contacto .contenedor-form textarea{
    resize: none;
+   color: #fff;
    background-color: #474747be;
    padding: 20px;
    border: none;
