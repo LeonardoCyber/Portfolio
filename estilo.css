@@ -244,6 +244,7 @@ html{
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
 }
 .skill-list{
    list-style: none;
@@ -306,15 +307,16 @@ html{
 /* SECCION CONTACTO */
 #contacto{
    padding: 100px 15px;
+   background-image: linear-gradient(#000000c7,#000000d8), url(img/laptop-1478822_1920-min.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 #contacto .titulo-seccion{
    margin-bottom: 20px;
    font-size: 22px;
    text-transform: uppercase;
    color: aliceblue;
-   text-decoration: underline;
-   text-decoration-color:#00c4fa ;
-   text-decoration-thickness:3px ;
    text-align: center;
 }
 #contacto .contenedor-form{
@@ -330,10 +332,10 @@ html{
 }
 #contacto .contenedor-form input,
 #contacto .contenedor-form textarea{
+   resize: none;
+   background-color: #474747be;
    padding: 20px;
-   border-radius: 20px;
    border: none;
-   border: 1px solid #000000;
 }
 #contacto .contenedor-form .mitad input{
    width: 48%;
@@ -342,16 +344,19 @@ html{
    width: 100%;
 }
 #contacto .btn-enviar{
+   border: none;
    display: block;
    margin: auto;
-   cursor: pointer;
-   transition: .5s;
-   padding: 10px 15px;
-   font-size: 18px;
-   font-weight: bold;
+   padding: .8rem 2rem;
+   background-color: #01c5fc88;
+   transition: .2s all;
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
 }
 #contacto .btn-enviar:hover{
-   background-color: #00c4fa;
+   background-color: #00c4fa4d;
+   transition: .2s all;
 }
 .altproject{
    border: 1px solid white;
@@ -368,15 +373,17 @@ html{
    color: white;
 }
 /* FOOTER */
-footer{
+.footer{
+   padding: .5rem;
    background-color: #000000;
-   color: #ffffff43;
-   text-align: center;
-   padding: 35px;
 }
-footer a{
-   color: #ffffff;
-   padding: 5px;
+.footer-content{
+   display: flex;
+   justify-content: center;
+}
+.footer-parrafo p{
+   color: #ffffff3f;
+   font-size: .7rem;
 }
 /* SECCION PROJECTOS */
 .bodyPro{
