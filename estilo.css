@@ -92,7 +92,7 @@
    max-width: 1200px;
 }
 .bodyp{
-   background-color: #252525;
+   background-color: #cccccc;
 }
 html{
    scroll-behavior: smooth;
@@ -172,7 +172,7 @@ html{
    max-width: 1100px;
    margin: auto;
    padding: 100px 15px;
-   color: #dad9d9;
+   color: #1b1b1b;
    display: flex;
 }
 #sobremi .contenedor-foto{
@@ -191,7 +191,7 @@ html{
 #sobremi .sobremi .titulo-seccion{
    font-size: 22px;
    text-transform: uppercase;
-   color: #ffffff;
+   color: #1b1b1b;
    text-decoration-color: #00c4fa;
    text-decoration-thickness: 3px;
    text-align: center;
@@ -204,7 +204,7 @@ html{
    text-align: center;
 }
 #sobremi .sobremi h2 span{
-   color: #0383a7;
+   color: #038aaf;
 }
 #sobremi .sobremi h3{
    font-size: 15px;
@@ -217,15 +217,16 @@ html{
 #sobremi .sobremi p{
    font-size: 17px;
    line-height: 25px;
-   color: #ffffff;
-   margin-bottom: 12px;
+   color: #111111;
+   margin-bottom: 1.2rem;
    text-align: left;
 }
 #sobremi .sobremi a{
    padding: .8rem 2rem;
-   background-color: #00c4fa88;
+   background-color: #02c8ffb4;
    transition: .2s all;
-   color: #fff;
+   color: #030303;
+   box-shadow: 3px 5px 10px #000000;
    text-transform: uppercase;
    text-decoration: none;
 }
