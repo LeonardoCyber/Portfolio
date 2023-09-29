@@ -256,7 +256,40 @@ html{
    transition: all .3s;
 }
 /* SECCION DE PORTFOLIO */
-
+.proyecto-content{
+   display: flex;
+   justify-content: center;
+}
+.proyecto{
+   background-color: #fdda66;
+   border-radius: 8px;
+   box-shadow: 5px 4px 6px #000000;
+   margin: 20px;
+   padding-bottom: 1rem;
+   text-align: center;
+   max-width: 350px;
+}
+.proyecto-img{
+   max-width: 100%;
+   height: auto;
+   border-radius: 4px;
+   transition: .4s all;
+}
+.proyecto-img:hover{
+   scale: 1.2;
+   transition: .4s all;
+   box-shadow: 0 0 5px #ffffff;
+}
+.proyecto h2{
+   font-size: 1.5rem;
+   padding-top: .6rem;
+   color: #000000;
+   font-weight: 500;
+}
+.proyecto p{
+   font-size: 1rem;
+   color: #000000;
+}
 /* FOOTER */
 .footer{
    padding: .5rem;
@@ -317,5 +350,17 @@ html{
    }
    #sobremi .sobremi .skills h2{
       padding-bottom: 1rem;
+   }
+   .proyecto-content{
+      display: block;
+      flex-direction: column;
+   }
+   .proyecto{
+      margin: 0 auto;
+      margin-top: 1.5rem;
+      margin-bottom: 1.8rem;
+   }
+   .proyecto-img:hover{
+      scale: none;
    }
 }
