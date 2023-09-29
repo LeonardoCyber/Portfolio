@@ -45,10 +45,10 @@
    transition: .5s;
 }
 .social-bar a i{
-   color: #fff;
+   color: #252525;
    border-radius: 50%;
    padding: .5rem;
-   background-color: #9c9203;
+   background-color: #fdda66;
    border: .1px solid #a5a5a5;
    box-shadow: 5px 5px 10px black;
    transition: .5s;
@@ -137,11 +137,12 @@ html{
    justify-content: center;
 }
 #inicio .contenido .presentacion .bienvenida{
-   color: #ffee00;
+   color: #fdda66;
    font-size: 16px;
    margin-bottom: 20px;
    text-transform: uppercase;
    letter-spacing: 5px;
+   font-weight: 500;
 }
 #inicio .contenido .presentacion h2{
    font-size: 40px;
@@ -158,14 +159,14 @@ html{
 }
 #inicio .contenido .presentacion a{
    padding: .8rem 2rem;
-   background-color: #928903;
+   background-color: #fdda66;
    transition: .2s all;
-   color: #fff;
+   color: #2e2e2e;
    text-transform: uppercase;
    text-decoration: none;
 }
 #inicio .contenido .presentacion a:hover{
-   background-color: #9289039c;
+   background-color: #fdda668e;
    transition: .2s all;
 }
 /* SECCION SOBRE MI */
@@ -183,7 +184,7 @@ html{
 #sobremi .contenedor-foto img{
    width: 400px;
    border-radius: 20px;
-   background: linear-gradient(#000000,#928903);
+   background: linear-gradient(#fdda66,#111111);
    box-shadow: 15px 15px 25px #000000;
 }
 #sobremi .sobremi{
@@ -204,7 +205,7 @@ html{
    text-align: center;
 }
 #sobremi .sobremi h2 span{
-   color: #ddce00;
+   color: #fdda66;
 }
 #sobremi .sobremi h3{
    color: #ffffff;
@@ -224,16 +225,16 @@ html{
 }
 #sobremi .sobremi a{
    padding: .8rem 2rem;
-   background-color: #9c9203;
+   background-color: #fdda66;
    transition: .2s all;
-   color: #ffffff;
+   color: #1a1a1a;
    box-shadow: 3px 5px 10px #000000;
    text-transform: uppercase;
    text-decoration: none;
 }
 #sobremi .sobremi a:hover{
    color: #ffffff;
-   background-color: #9c92038e;
+   background-color: #fdda669a;
 }
 /* SERVICIOS */
 .skills{
@@ -351,14 +352,14 @@ html{
    display: block;
    margin: auto;
    padding: .8rem 2rem;
-   background-color: #01c5fc88;
+   background-color: #fdda66;
    transition: .2s all;
-   color: #fff;
+   color: #161616;
    text-transform: uppercase;
    text-decoration: none;
 }
 #contacto .btn-enviar:hover{
-   background-color: #00c4fa4d;
+   background-color: #fdda668e;
    transition: .2s all;
 }
 .altproject{
@@ -378,7 +379,7 @@ html{
 /* FOOTER */
 .footer{
    padding: .5rem;
-   background-color: #000000;
+   background-color: #1c1a29;
 }
 .footer-content{
    display: flex;
