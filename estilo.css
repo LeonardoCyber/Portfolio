@@ -2,27 +2,16 @@
 *{
    font-family: 'Montserrat';
 }
-/* INTRO */
-.intro,
-*::after,
-*::before{
-   margin: 0;
-   padding: 0;
-   box-sizing: inherit ;
+::-webkit-scrollbar {
+   width: 5px;
+   background-color: transparent;
 }
-.intro{
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   z-index: 100;
-   background-color: #000000;
-   transition: 1s;
+::-webkit-scrollbar-thumb {
+   background-color: #fdda66;
+   border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+   background: none;
 }
 .social-bar{
    position: fixed;
@@ -101,23 +90,66 @@ html{
    content: "";
    top: 0;
    left: 0;
-   width: 100%;
-   height: 100%;
-   background-image: linear-gradient(180deg , #000000af 0%, #000000a9 100%), url('./img/bginicio.jpg');
+
    background-size: cover;
    z-index: -1;
+   max-height: 50vh;
 }
-#inicio .presentacion img{
+.header img{
    width: 60px;
    padding-bottom: .5rem;
 }
-@keyframes bounce {
-   0%, 100% {
+@keyframes desplazamiento {
+   0% {
       transform: translateY(0);
    }
    50% {
-      transform: translateY(-10px);
+      transform: translateY(5px);
    }
+   100% {
+      transform: translateY(0);
+   }
+}
+.imagen-desplazamiento {
+   animation-name: desplazamiento;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.header{
+   background-image: linear-gradient(180deg , #000000af 0%, #000000a9 100%), url('./img/bginicio.jpg');
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 50vh;
+   display: flex;
+   align-items: center;
+}
+.header-content{
+   text-align: center;
+}
+.header-content h1{
+   font-size: 2.5rem;
+   line-height: 5rem;
+   color: #fdda66;
+   text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+.header-content p{
+   font-size: 1rem;
+   color: #ffffff;
+   font-weight: 300;
+   padding: 0 2.5rem;
+   margin-bottom: 1.8rem;
+}
+.header a{
+   padding: .8rem 2rem;
+   background-color: #fdda66;
+   transition: .2s all;
+   color: #2e2e2e;
+   text-transform: uppercase;
+   text-decoration: none;
 }
 #inicio .presentacion img {
    animation: bounce 3s infinite;
@@ -173,6 +205,7 @@ html{
 #sobremi{
    max-width: 1100px;
    margin: auto;
+   margin-top: 1rem;
    padding: 100px 15px;
    color: #1b1b1b;
    display: flex;
@@ -225,6 +258,7 @@ html{
 }
 #sobremi .sobremi a{
    padding: .8rem 2rem;
+   margin: 0 auto;
    background-color: #fdda66;
    transition: .2s all;
    color: #1a1a1a;
@@ -238,27 +272,26 @@ html{
 }
 /* SERVICIOS */
 .skills{
-   text-align: center;
+   border-radius: 10px;
    padding: 20px;
-   color: #fff;
+   color: #ffffff;
 }
 .skills{
-   background-image: linear-gradient(#0000009d,#00000098),url(/img/IMG_20220802_085659274.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
+   margin-top: 4rem;
 }
 .skill-list{
-   list-style: none;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 10px;
+   display: flex;
+   justify-content: center;
+   padding-top: 2rem;
 }
-.skill-list li img{
-   width: 100px;
-   max-width: 100%;
-   height: auto;
+.skills img{
+   width: 50px;
+   margin: .4rem;
+   transition: all .3s;
+}
+.skills img:hover{
+   scale: 1.3;
+   transition: all .3s;
 }
 /* SECCION DE PORTFOLIO */
 #portfolio {
@@ -306,61 +339,6 @@ html{
 #portfolio .fila .proyecto:hover .info{
    opacity: 1;
    bottom: 0;
-}
-/* SECCION CONTACTO */
-#contacto{
-   padding: 100px 15px;
-   background-image: linear-gradient(#000000b0,#000000c0), url(img/laptop-1478822_1920-min.jpg);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-#contacto .titulo-seccion{
-   margin-bottom: 20px;
-   font-size: 22px;
-   text-transform: uppercase;
-   color: aliceblue;
-   text-align: center;
-}
-#contacto .contenedor-form{
-   max-width: 1100px;
-   margin: auto;
-}
-#contacto .contenedor-form .fila{
-   margin-bottom: 15px;
-}
-#contacto .contenedor-form .mitad{
-   display: flex;
-   justify-content: space-between;
-}
-#contacto .contenedor-form input,
-#contacto .contenedor-form textarea{
-   resize: none;
-   color: #fff;
-   background-color: #474747be;
-   padding: 20px;
-   border: none;
-}
-#contacto .contenedor-form .mitad input{
-   width: 48%;
-}
-#contacto .contenedor-form .input-full{
-   width: 100%;
-}
-#contacto .btn-enviar{
-   border: none;
-   display: block;
-   margin: auto;
-   padding: .8rem 2rem;
-   background-color: #fdda66;
-   transition: .2s all;
-   color: #161616;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-#contacto .btn-enviar:hover{
-   background-color: #fdda668e;
-   transition: .2s all;
 }
 .altproject{
    border: 1px solid white;
@@ -467,6 +445,9 @@ html{
       margin: 10px;
       padding-bottom: 1rem;
    }
+   .header h1{
+      font-size: 1.3rem;
+   }
    #inicio .social-bar{
       position: fixed;
    right: 0;
@@ -495,9 +476,9 @@ html{
       text-align: center;
       padding: 15px;
    }
-   #sobremi .sobremi h2{
-      font-size: 25px;
-      text-align: center;
+   #sobremi .sobremi h3{
+      font-size: 1rem;
+      text-align: left;
    }
    .skill-list li img{
       width: 50px;
@@ -529,17 +510,6 @@ html{
    }
    #portfolio .fila .proyecto img{
       width: 100%;
-   }
-   #contacto{
-      padding: 50px 15px;
-   }
-   #contacto .contenedor-form .mitad{
-      margin-bottom: 15px;
-      display: block;
-   }
-   #contacto .contenedor-form .mitad input{
-      width: 100%;
-      margin-bottom: 15px;
    }
    #descripcionProj{
       width: 95%;
