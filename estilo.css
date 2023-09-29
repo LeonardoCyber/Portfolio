@@ -103,7 +103,7 @@ html{
    left: 0;
    width: 100%;
    height: 100%;
-   background-image: linear-gradient(180deg , #000000cb 0%, #000000c5 100%), url('./img/bginicio.jpg');
+   background-image: linear-gradient(180deg , #000000af 0%, #000000a9 100%), url('./img/bginicio.jpg');
    background-size: cover;
    z-index: -1;
 }
@@ -219,7 +219,7 @@ html{
    line-height: 25px;
    color: #ffffff;
    margin-bottom: 12px;
-   text-align: justify;
+   text-align: left;
 }
 #sobremi .sobremi a{
    padding: .8rem 2rem;
@@ -307,7 +307,7 @@ html{
 /* SECCION CONTACTO */
 #contacto{
    padding: 100px 15px;
-   background-image: linear-gradient(#000000c7,#000000d8), url(img/laptop-1478822_1920-min.jpg);
+   background-image: linear-gradient(#000000b0,#000000c0), url(img/laptop-1478822_1920-min.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
