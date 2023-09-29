@@ -137,7 +137,7 @@ html{
    justify-content: center;
 }
 #inicio .contenido .presentacion .bienvenida{
-   color: #9c9203;
+   color: #ffee00;
    font-size: 16px;
    margin-bottom: 20px;
    text-transform: uppercase;
@@ -192,7 +192,7 @@ html{
 #sobremi .sobremi .titulo-seccion{
    font-size: 22px;
    text-transform: uppercase;
-   color: #cecdcd;
+   color: #ffffff;
    text-decoration-thickness: 3px;
    text-align: center;
 }
@@ -204,10 +204,10 @@ html{
    text-align: center;
 }
 #sobremi .sobremi h2 span{
-   color: #9c9203;
+   color: #ddce00;
 }
 #sobremi .sobremi h3{
-   color: #dadada;
+   color: #ffffff;
    font-size: 15px;
    font-weight: 500;
    text-transform: uppercase;
@@ -218,7 +218,7 @@ html{
 #sobremi .sobremi p{
    font-size: 17px;
    line-height: 25px;
-   color: #d1d1d1;
+   color: #ffffff;
    margin-bottom: 1.5rem;
    text-align: left;
 }
@@ -226,14 +226,14 @@ html{
    padding: .8rem 2rem;
    background-color: #9c9203;
    transition: .2s all;
-   color: #d8d8d8;
+   color: #ffffff;
    box-shadow: 3px 5px 10px #000000;
    text-transform: uppercase;
    text-decoration: none;
 }
 #sobremi .sobremi a:hover{
    color: #ffffff;
-   background-color: #00c4fa48;
+   background-color: #9c92038e;
 }
 /* SERVICIOS */
 .skills{
