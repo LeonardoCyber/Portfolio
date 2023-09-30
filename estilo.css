@@ -75,7 +75,7 @@ html{
 }
 .imagen-desplazamiento {
    animation-name: desplazamiento;
-   animation-duration: 2s;
+   animation-duration: 1.4s;
    animation-timing-function: linear;
    animation-iteration-count: infinite;
    animation-direction: alternate;
@@ -181,7 +181,7 @@ html{
    width: 400px;
    border-radius: 20px;
    background: linear-gradient(#fdda66,#111111);
-   box-shadow: 15px 15px 25px #000000;
+   box-shadow: 10px 5px 10px #000000;
 }
 #sobremi .sobremi{
    margin: 0 40px;
@@ -263,7 +263,7 @@ html{
 .proyecto{
    background-color: #fdda66;
    border-radius: 8px;
-   box-shadow: 5px 4px 6px #000000;
+   box-shadow: 10px 5px 10px #000000;
    margin: 20px;
    padding-bottom: 1rem;
    text-align: center;
