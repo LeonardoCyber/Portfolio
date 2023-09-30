@@ -267,7 +267,7 @@ html{
    margin: 20px;
    padding-bottom: 1rem;
    text-align: center;
-   max-width: 350px;
+   max-width: 331px;
 }
 .proyecto-img{
    max-width: 100%;
@@ -359,6 +359,7 @@ html{
       margin: 0 auto;
       margin-top: 1.5rem;
       margin-bottom: 1.8rem;
+      max-width: 300px;
    }
    .proyecto-img:hover{
       scale: none;
