@@ -184,50 +184,52 @@ html{
    margin: 0 40px;
 }
 #sobremi .sobremi .titulo-seccion{
+   font-weight: 600;
+   padding: .5rem;
    font-size: 22px;
    text-transform: uppercase;
    color: #ffffff;
-   text-decoration-thickness: 3px;
    text-align: center;
-}
-#sobremi .sobremi h2{
-   font-size: 34px;
-   font-weight: bold;
-   margin: 0px;
-   letter-spacing: 2px;
-   text-align: center;
-}
-#sobremi .sobremi h2 span{
-   color: #fdda66;
 }
 #sobremi .sobremi h3{
-   color: #ffffff;
-   font-size: 15px;
+   position: absolute;
    font-weight: 500;
+   background-color: #fdda66;
+   box-shadow: 3px 5px 10px #000000;
+   border-radius: 0 20px;
+   padding: .5rem;
+   color: #000000;
+   font-size: 15px;
    text-transform: uppercase;
-   margin-bottom: 20px;
-   letter-spacing: 1px;
-   text-align: center;
-}
-#sobremi .sobremi p{
-   font-size: 17px;
-   color: #ffffff;
-   margin-bottom: 1.5rem;
    text-align: left;
 }
-#sobremi .sobremi a{
-   padding: .8rem 2rem;
-   margin: 0 auto;
-   background-color: #fdda66;
-   transition: .2s all;
-   color: #1a1a1a;
-   box-shadow: 3px 5px 10px #000000;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-#sobremi .sobremi a:hover{
+#sobremi .sobremi p{
+   background-color: #0000003d;
+   border-radius: 0 20px;
+   padding: 2.2rem;
+   font-size: 17px;
    color: #ffffff;
-   background-color: #fdda669a;
+   margin-top: 1.6rem;
+   text-align: left;
+}
+#sobremi a{
+      display: flex;
+      justify-content: center;
+      transition: .2s all;
+      color: #000000;
+      text-transform: uppercase;
+      text-decoration: none;
+}
+#sobremi span{
+   background-color: #fdda66;
+   padding: .5rem;
+   transition: .3s all;
+   box-shadow: 3px 5px 10px #000000;
+}
+#sobremi .sobremi span:hover{
+   scale: 1.1;
+   transition: .3s all;
+   box-shadow: 3px 5px 10px #000000;
 }
 /* SERVICIOS */
 .skills{
@@ -322,13 +324,13 @@ html{
    }
    #inicio .social-bar{
       position: fixed;
-   right: 0;
-   top: 75%;
-   font-size: 1rem;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-   z-index: 99;
+      right: 0;
+      top: 75%;
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      z-index: 99;
    }
    #inicio .contenido .presentacion h2{
       font-size: 1rem;
@@ -336,6 +338,18 @@ html{
    #sobremi{
       padding: 50px 0;
       display: flex;
+   }
+   #sobremi p{
+      margin: 5px;
+      padding: .5rem;
+   }
+   #sobremi .btn-sobremi{
+      display: flex;
+      padding: 0 2rem;
+      transition: .2s all;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      text-decoration: none;
    }
    #sobremi .contenedor-foto{
       max-width: 600px;
