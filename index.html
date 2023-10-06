@@ -12,10 +12,10 @@
 </head>
 <body class="bodyp">
     <div id="flags" class="flags">
-        <div class="flags__item" data-lenguage="es">
+        <div class="flags__item" data-language="es">
             <img src="img/spain.png" alt="">
         </div>
-        <div class="flags__item" data-lenguage="en">
+        <div class="flags__item" data-language="en">
             <img src="img/united-kingdom.png" alt="">
         </div>
     </div>
@@ -30,8 +30,8 @@
                 <div class="header-content container">
                     <img src="/img/desarrollo-web.png" alt="" class="imagen-desplazamiento">
                     <h1>-leonardo bolívar-</h1>
-                    <p>"Educa siempre a tu espíritu y no dejes nunca de aprender. La vida sin cultura es una imagen de la muerte"</p>
-                    <span>- Catón el Joven</span>
+                    <p data-section="inicio" data-value="dicho">"Educa siempre a tu espíritu y no dejes nunca de aprender. La vida sin cultura es una imagen de la muerte"</p>
+                    <span data-section="inicio" data-value="nombre_autor">- Catón el Joven</span>
                     </div>
                 </div>
             </header>
@@ -42,11 +42,11 @@
             <img src="img/1660302493867.png" alt="mi foto">
         </div>
         <div class="sobremi" >
-            <h3>Desarrollador jr.</h3>
-            <p>Conocimientos de frontend, backend y manejo de database de manera autodidacta. Con mucho entusiasmo y compañerismo para ser parte de tu equipo, compartir ideas y conocimientos para aportar positivamente a tu proyecto.</p>
+            <h3 data-section="perfil" data-value="cargo">Desarrollador jr.</h3>
+            <p data-section="perfil" data-value="descripcion">Conocimientos de frontend, backend y manejo de database de manera autodidacta. Con mucho entusiasmo y compañerismo para ser parte de tu equipo, compartir ideas y conocimientos para aportar positivamente a tu proyecto.</p>
             <a target="_blank" href="static/CV_2023-08-10_LEONARDO_BOLIVAR.pdf"><span>Descarga CV</span></a>
             <div class="skills">
-                <h2 class="titulo-seccion">Conocimientos</h2>
+                <h2 data-section="perfil" data-value="titulo_skills" class="titulo-seccion">Conocimientos</h2>
                 <div class="row">
                     <div class="col"><img src="img/piton.png" alt="python"></div>
                     <div class="col"><img src="img/logodjango.png" alt="django"></div>
@@ -61,18 +61,18 @@
     <div class="proyecto-content">
     <div class="proyecto">
         <a target="_blank" href="https://ariadnavivasbarbershop.netlify.app/"><img class="proyecto-img" src="img/Captura de pantalla 2023-09-28 043632.png" alt="Nombre del Proyecto"></a>
-        <h2>Salón Ariadna</h2>
-        <p>Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)</p>
+        <h2 data-section="proyectos" data-value="titulo_proyecto">Salón Ariadna</h2>
+        <p data-section="proyectos" data-value="descripcion_proyecto">Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)</p>
     </div>
     <div class="proyecto">
         <a target="_blank" href="https://valhallastorestgo.netlify.app/"><img class="proyecto-img" src="img/capValhalla.png" alt="Nombre del Proyecto"></a>
-        <h2>Tienda de joyas</h2>
-        <p>Es una web que estoy creando para un pequeño emprendimiento de joyería.</p>
+        <h2 data-section="proyectos" data-value="titulo_proyecto2">Tienda de joyas</h2>
+        <p data-section="proyectos" data-value="descripcion_proyecto2">Es una web que estoy creando para un pequeño emprendimiento de joyería.</p>
     </div>
     <div class="proyecto">
         <a target="_blank" href="#"><img class="proyecto-img" src="img/capinicio.png" alt="Nombre del Proyecto"></a>
-        <h2>Cyberland Gaming</h2>
-        <p>Fue mi primera pagina web creada con Django, es una tienda virtual ficticia de videojuegos</p>
+        <h2 data-section="proyectos" data-value="titulo_proyecto3">Cyberland Gaming</h2>
+        <p data-section="proyectos" data-value="descripcion_proyecto3">Fue mi primera pagina web creada con Django, es una tienda virtual ficticia de videojuegos</p>
     </div>
 </div>
     <footer class="footer">

@@ -1,0 +1,19 @@
+{
+    "inicio":{
+        "dicho":"Always educate your spirit and never stop learning. Life without culture is an image of death.",
+        "nombre_autor":"- Cato the Younger"
+    },
+    "perfil":{
+        "cargo":"Junior Developer",
+        "descripcion":"Self-taught in frontend, backend, and database management. With great enthusiasm and teamwork, I aim to be part of your team, share ideas and knowledge, and contribute positively to your project.",
+        "titulo_skills":"Skills"
+    },
+    "proyectos":{
+        "titulo_proyecto": "Ariadna's Salon",
+        "descripcion_proyecto":"Website for a client showcasing their professional work in the field of hairstyling for both women and men (I will be working on this project to implement features like an online store and payment gateway.)",
+        "titulo_proyecto2":"Jewelry Store",
+        "descripcion_proyecto2":"A website I am creating for a small jewelry business.",
+        "titulo_proyecto3":"Cyberland Gaming",
+        "descripcion_proyecto3":"My first Django-created website, a fictional online video game store."
+    }
+}

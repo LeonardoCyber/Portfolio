@@ -1,0 +1,19 @@
+{
+    "inicio":{
+        "dicho":"Educa siempre a tu espíritu y no dejes nunca de aprender. La vida sin cultura es una imagen de la muerte.",
+        "nombre_autor":"- Catón el Joven"
+    },
+    "perfil":{
+        "cargo":"Desarrollador jr.",
+        "descripcion":"Conocimientos de frontend, backend y manejo de database de manera autodidacta. Con mucho entusiasmo y compañerismo para ser parte de tu equipo, compartir ideas y conocimientos para aportar positivamente a tu proyecto.",
+        "titulo_skills":"Conocimientos"
+    },
+    "proyectos":{
+        "titulo_proyecto": "Salón Ariadna",
+        "descripcion_proyecto":"Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)",
+        "titulo_proyecto2":"Tienda de joyas",
+        "descripcion_proyecto2":"Es una web que estoy creando para un pequeño emprendimiento de joyería.",
+        "titulo_proyecto3":"Cyberland Gaming",
+        "descripcion_proyecto3":"Fue mi primera pagina web creada con Django, es una tienda virtual ficticia de videojuegos"
+    }
+}
