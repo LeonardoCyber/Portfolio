@@ -390,7 +390,7 @@ html{
       box-shadow: none;
    }
    #flags{
-      position: fixed;
+      position: absolute;
       top: 0;
       right: 0;
       display: flex;
@@ -409,7 +409,7 @@ html{
 }
 /* boton de cambio de idioma */
 #flags{
-   position: fixed;
+   position: absolute;
    top: 0;
    right: 0;
    display: flex;
