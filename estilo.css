@@ -389,20 +389,40 @@ html{
       scale: none;
       box-shadow: none;
    }
+   #flags{
+      position: fixed;
+      top: 0;
+      right: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 5px;
+   }
+   .flags__item{
+      margin-bottom: 10px;
+      margin: 5px;
+      cursor: pointer;
+   }
+   .flags__item img{
+      width: 30px;
+   }
 }
 /* boton de cambio de idioma */
-.flags{
-   margin: 0 auto;
-   width: 75px;
+#flags{
+   position: fixed;
+   top: 0;
+   right: 0;
    display: flex;
-   justify-content: space-around;
+   align-items: flex-end;
+   justify-content: space-between;
+   padding: 20px;
 }
-.flags__item{
-   width: 60px;
-   padding: .5rem;
-}
-.flags img{
-   display: block;
+
+.flags__item {
+   margin-bottom: 10px;
+   margin: 10px;
    cursor: pointer;
+}
+.flags__item img{
    width: 30px;
 }
