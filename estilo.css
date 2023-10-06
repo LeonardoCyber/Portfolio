@@ -399,7 +399,7 @@ html{
 }
 .flags__item{
    width: 60px;
-   padding: .2rem;
+   padding: .5rem;
 }
 .flags img{
    display: block;
