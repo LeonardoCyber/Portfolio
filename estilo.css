@@ -390,3 +390,19 @@ html{
       box-shadow: none;
    }
 }
+/* boton de cambio de idioma */
+.flags{
+   margin: 0 auto;
+   width: 75px;
+   display: flex;
+   justify-content: space-around;
+}
+.flags__item{
+   width: 60px;
+   padding: .2rem;
+}
+.flags img{
+   display: block;
+   cursor: pointer;
+   width: 30px;
+}
