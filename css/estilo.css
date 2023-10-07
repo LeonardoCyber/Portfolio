@@ -78,7 +78,7 @@ html{
    animation-direction: alternate;
 }
 .header{
-   background-image: linear-gradient(180deg , #000000af 0%, #000000a9 100%), url('./img/bginicio.jpg');
+   background-image: linear-gradient(180deg , #000000af 0%, #000000a9 100%), url('../img/bginicio.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
