@@ -15,6 +15,6 @@
         "titulo_proyecto2":"Jewelry Store",
         "descripcion_proyecto2":"It is a website for a small jewelry business. (This website was one of the first that I created, so the images I used are not completely optimized, at this moment I do have knowledge of website and image optimization.)",
         "titulo_proyecto3":"Cyberland Gaming",
-        "descripcion_proyecto3":"My first Django-created website, a fictional online video game store."
+        "descripcion_proyecto3":"It was my first website created with Django, it is a fictitious virtual video game store that has a shopping cart that works only if the user is registered, registration function, login and email manager"
     }
 }

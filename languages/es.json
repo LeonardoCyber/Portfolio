@@ -15,6 +15,6 @@
         "titulo_proyecto2":"Tienda de joyas",
         "descripcion_proyecto2":"Es una web para un pequeño emprendimiento de joyería. (Esta web fue una de las primeras que cree asi que no están del todo optimizadas las imágenes que use, en este momento si tengo conocimientos de optimización de sitios webs e imágenes.)",
         "titulo_proyecto3":"Cyberland Gaming",
-        "descripcion_proyecto3":"Fue mi primera pagina web creada con Django, es una tienda virtual ficticia de videojuegos"
+        "descripcion_proyecto3":"Fue mi primera pagina web creada con Django, es una tienda virtual ficticia de videojuegos que cuenta con un carro de compras que funciona unicamente si el usuario esta registrado, función de registro, login y gestor de email"
     }
 }
