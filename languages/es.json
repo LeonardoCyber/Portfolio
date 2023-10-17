@@ -11,9 +11,9 @@
     },
     "proyectos":{
         "titulo_proyecto": "Salón Ariadna",
-        "descripcion_proyecto":"Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)",
+        "descripcion_proyecto":"Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (usare Hostgator para administrar y subir la web a internet. Estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)",
         "titulo_proyecto2":"Tienda de joyas",
-        "descripcion_proyecto2":"Es una web que estoy creando para un pequeño emprendimiento de joyería.",
+        "descripcion_proyecto2":"Es una web para un pequeño emprendimiento de joyería. (Esta web fue una de las primeras que cree asi que no están del todo optimizadas las imágenes que use, en este momento si tengo conocimientos de optimización de sitios webs e imágenes.)",
         "titulo_proyecto3":"Cyberland Gaming",
         "descripcion_proyecto3":"Fue mi primera pagina web creada con Django, es una tienda virtual ficticia de videojuegos"
     }
