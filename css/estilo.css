@@ -269,6 +269,14 @@ html{
    text-align: left;
    max-width: 331px;
 }
+.titulo-proyectos{
+   color: #ffffff;
+   text-align: center;
+   margin: 0 auto;
+   text-transform: uppercase;
+   font-size: 1.4rem;
+   font-weight: 600;
+}
 .proyecto-img{
    max-width: 100%;
    height: auto;
