@@ -10,6 +10,10 @@ createScrollReveal('.h1_scroll', 2000, 'top', '-30px');
 createScrollReveal('.yo_scroll', 2000, 'right', '-50px');
 createScrollReveal('.banderas_scroll', 2000, 'bottom', '-30px');
 createScrollReveal('.skills_scroll', 2000, 'right', '-30px');
+createScrollReveal('.projectBar_scroll', 2000, 'right', '-50px');
+createScrollReveal('.titulo_project_scroll',2000, 'right', '-30px');
+createScrollReveal('.social_scroll',2000, 'left', '-30px')
+
 
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
