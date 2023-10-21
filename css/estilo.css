@@ -93,6 +93,7 @@ html{
    text-align: center;
 }
 .header-content h1{
+   font-weight: 500;
    font-size: 2.5rem;
    line-height: 5rem;
    color: #fdda66;
@@ -181,7 +182,23 @@ html{
    width: 400px;
    border-radius: 20px;
    background: linear-gradient(#fdda66,#111111);
-   box-shadow: 10px 5px 10px #000000;
+   box-shadow: 5px 5px 10px #000000;
+}
+#sobremi .boton_cv{
+   display: flex;
+   justify-content: center;
+}
+#sobremi .boton_cv a{
+   color:#000000;
+   background-color: #fdda66;
+   padding: .5rem;
+   font-weight: 500;
+   box-shadow: 5px 5px 10px #000000;
+   transition: all .3s;
+}
+#sobremi .boton_cv a:hover{
+   scale: 1.1;
+   transition: all .3s;
 }
 #sobremi .sobremi{
    margin: 0 40px;
@@ -223,17 +240,6 @@ html{
       text-transform: uppercase;
       text-decoration: none;
 }
-#sobremi span{
-   background-color: #fdda66;
-   padding: .5rem;
-   transition: .3s all;
-   box-shadow: 3px 5px 10px #000000;
-}
-#sobremi .sobremi span:hover{
-   scale: 1.1;
-   transition: .3s all;
-   box-shadow: 3px 5px 10px #000000;
-}
 /* SERVICIOS */
 .skills{
    border-radius: 10px;
@@ -263,7 +269,6 @@ html{
    justify-content: center;
 }
 .proyecto{
-   border-radius: 8px;
    margin: 20px;
    padding-bottom: 1rem;
    text-align: left;
@@ -309,6 +314,25 @@ html{
    color: #ffffff;
    margin: 10px;
    margin-top: 15px;
+}
+.btn_git{
+   display: flex;
+   justify-content: center;
+}
+.btn_git a{
+   background-color: #fdda66;
+   box-shadow: 3px 5px 10px #000000;
+   color:#000000;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: .5rem;
+   font-weight: 500;
+   transition: all .3s;
+}
+.btn_git a:hover{
+   color: #000000;
+   scale: 1.1;
+   transition: all .3s;
 }
 /* FOOTER */
 .footer{
