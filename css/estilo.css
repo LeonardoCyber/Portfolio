@@ -112,63 +112,10 @@ html{
    padding: 0 2.5rem;
    margin-bottom: 1rem;
 }
-.header a{
-   padding: .8rem 2rem;
-   background-color: var(--second_color);
-   transition: .2s all;
-   color: #2e2e2e;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-#inicio .presentacion img {
-   animation: bounce 3s infinite;
-}
 #inicio .contenido header .contenido-header h1 img{
    text-align: center;
    max-width: 60px;
    color: var(--p);
-}
-#inicio .contenido .presentacion{
-   height: 100vh;
-   margin: auto;
-   color: var(--p);
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-}
-#inicio .contenido .presentacion .bienvenida{
-   color:var(--second_color);
-   font-size: 16px;
-   margin-bottom: 20px;
-   text-transform: uppercase;
-   letter-spacing: 5px;
-   font-weight: 500;
-}
-#inicio .contenido .presentacion h2{
-   font-size: 40px;
-   margin-bottom: 25px;
-   text-align: center;
-   color: #00c4fa;
-}
-#inicio .contenido .presentacion .descripcion{
-   max-width: 700px;
-   margin: 25px auto;
-   font-size: 18px;
-   text-align: center;
-   transition: .5s;
-}
-#inicio .contenido .presentacion a{
-   padding: .8rem 2rem;
-   background-color: var(--second_color);
-   transition: .2s all;
-   color: #2e2e2e;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-#inicio .contenido .presentacion a:hover{
-   background-color: #fdda668e;
-   transition: .2s all;
 }
 /* SECCION SOBRE MI */
 #sobremi{
@@ -263,13 +210,18 @@ html{
    transition: all .3s;
 }
 /* SECCION DE PORTFOLIO */
-.proyecto-content{
+.proyecto-content {
    display: flex;
-   justify-content: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin: 0 auto;
 }
-.proyecto{
-   margin: 20px;
-   padding-bottom: 1rem;
+.proyecto {
+   flex: 0 0 calc(33.33% - 20px);
+   margin: 5px;
+   padding: 5px;
+   box-sizing: border-box;
    text-align: left;
    max-width: 331px;
 }
@@ -337,6 +289,7 @@ html{
 .footer{
    padding: 1rem;
    background-color: #0f0d18;
+   margin-top: 2rem;
 }
 .footer-content{
    display: flex;
@@ -349,13 +302,9 @@ html{
 }
 /* SECCION RESPONSIVE */
 @media(max-width:991px){
-   #inicio .contenido .presentacion .descripcion{
-      font-size: 1rem;
-      margin: 10px;
-      padding-bottom: 1rem;
-   }
    .header h1{
       font-size: 1.3rem;
+      margin-bottom: auto;
    }
    #inicio .social-bar{
       position: fixed;
@@ -366,9 +315,6 @@ html{
       flex-direction: column;
       align-items:center;
       z-index: 99;
-   }
-   #inicio .contenido .presentacion h2{
-      font-size: 1rem;
    }
    #sobremi{
       padding: 50px 0;
@@ -452,7 +398,6 @@ html{
    justify-content: space-between;
    padding: 20px;
 }
-
 .flags__item {
    margin-bottom: 10px;
    margin: 10px;
@@ -460,4 +405,9 @@ html{
 }
 .flags__item img{
    width: 30px;
+   transition: all .3s;
+}
+.flags__item img:hover{
+   scale: 1.2;
+   transition: all .3s;
 }
