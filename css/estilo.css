@@ -87,6 +87,7 @@ html{
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   box-shadow: 0 5px 10px #000000;
    min-height: 50vh;
    display: flex;
    align-items: center;
