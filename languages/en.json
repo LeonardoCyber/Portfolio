@@ -16,6 +16,8 @@
         "titulo_proyecto2":"Jewelry Store",
         "descripcion_proyecto2":"It is a website for a small jewelry business. (This website was one of the first that I created, so the images I used are not completely optimized, at this moment I do have knowledge of website and image optimization.)",
         "titulo_proyecto3":"Shopping cart",
-        "descripcion_proyecto3":"Functional shopping cart made with JavaScript, where you can add products by id, remove them and empty cart completely."
+        "descripcion_proyecto3":"Functional shopping cart made with JavaScript, where you can add products by id, remove them and empty cart completely.",
+        "titulo_proyecto4":"Website Piso Uno",
+        "descripcion_proyecto4":"I am doing a facelift of the website of a prestigious restaurant in Santiago de Chile, giving it an aesthetic that combines more with its style and prestige."
     }
 }
