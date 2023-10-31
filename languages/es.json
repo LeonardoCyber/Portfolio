@@ -10,7 +10,8 @@
         "titulo_skills":"Conocimientos"
     },
     "proyectos":{
-        "titulo":"links a proyectos",
+        "titulo":"proyectos personales",
+        "titulo_freelance":"Proyectos Freelance",
         "titulo_ariadnaVivas": "Salón Ariadna",
         "descripcion_ariadnaVivas":"Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (usare Hostgator para administrar y subir la web a internet. Estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)",
         "titulo_carro_compras":"Carro de compras",

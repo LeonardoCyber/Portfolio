@@ -10,7 +10,8 @@
         "titulo_skills":"Skills"
     },
     "proyectos":{
-        "titulo":"Links to projects",
+        "titulo":"personal projects",
+        "titulo_freelance":"FREELANCE PROJECTS",
         "titulo_ariadnaVivas": "Ariadna's Salon",
         "descripcion_ariadnaVivas":"Website for client where her professional work is shown in the field of styling for both women and men (I will use Hostgator to manage and upload the website to the Internet. I will be working on this project to implement functions such as a virtual store and payment gateway.)",
         "titulo_carro_compras":"Shopping cart",
