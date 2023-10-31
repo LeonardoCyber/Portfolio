@@ -6,11 +6,11 @@ function createScrollReveal(selector, duration, origin, distance) {
     });
 }
 window.sr = ScrollReveal();
-createScrollReveal('.top_scroll', 1000, 'top', '30px');
-createScrollReveal('.bottom_scroll', 1000, 'bottom', '50px');
-createScrollReveal('.left_scroll', 1000, 'left', '30px');
-createScrollReveal('.right_scroll', 1000, 'right', '30px');
-createScrollReveal('.top_header_scroll', 1000, 'top', '90px');
+createScrollReveal('.top_scroll', 2000, 'top', '30px');
+createScrollReveal('.bottom_scroll', 2000, 'bottom', '50px');
+createScrollReveal('.left_scroll', 2000, 'left', '30px');
+createScrollReveal('.right_scroll', 2000, 'right', '30px');
+createScrollReveal('.top_header_scroll', 2000, 'top', '90px');
 
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");

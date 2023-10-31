@@ -11,13 +11,13 @@
     },
     "proyectos":{
         "titulo":"links a proyectos",
-        "titulo_proyecto": "Salón Ariadna",
-        "descripcion_proyecto":"Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (usare Hostgator para administrar y subir la web a internet. Estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)",
-        "titulo_proyecto2":"Tienda de joyas",
-        "descripcion_proyecto2":"Es una web para un pequeño emprendimiento de joyería. (Esta web fue una de las primeras que cree asi que no están del todo optimizadas las imágenes que use, en este momento si tengo conocimientos de optimización de sitios webs e imágenes.)",
-        "titulo_proyecto3":"Carro de compras",
-        "descripcion_proyecto3":"Carrito de compras funcional hecho con javaScript, donde se puede agregar productos por id, quitarlos y vaciar carro por completo.",
-        "titulo_proyecto4": "web Piso Uno",
-        "descripcion_proyecto4": "Me encuentro haciendo un lavado de cara de la web de un prestigioso restaurante de Santiago de Chile, dándole una estética que combine mas con su estilo y prestigio."
+        "titulo_ariadnaVivas": "Salón Ariadna",
+        "descripcion_ariadnaVivas":"Web para clienta donde se muestra su trabajo profesional en el rubro del estilismo tanto de dama como de caballero (usare Hostgator para administrar y subir la web a internet. Estaré trabajando en este proyecto para implementar funciones como una tienda virtual y pasarela de pagos.)",
+        "titulo_carro_compras":"Carro de compras",
+        "descripcion_carro_compras":"Carrito de compras funcional hecho con javaScript, donde se puede agregar productos por id, quitarlos y vaciar carro por completo.",
+        "titulo_pisouno": "web Piso Uno",
+        "descripcion_pisouno": "Me encuentro haciendo un lavado de cara de la web de un prestigioso restaurante de Santiago de Chile, dándole una estética que combine mas con su estilo y prestigio.",
+        "titulo_contador_clicks":"Contador de Clicks",
+        "descripcion_contador_click":"Es un contador de clicks básico hecho con React para poner en practica el uso de funciones y hooks."
     }
 }

@@ -11,13 +11,13 @@
     },
     "proyectos":{
         "titulo":"Links to projects",
-        "titulo_proyecto": "Ariadna's Salon",
-        "descripcion_proyecto":"Website for client where her professional work is shown in the field of styling for both women and men (I will use Hostgator to manage and upload the website to the Internet. I will be working on this project to implement functions such as a virtual store and payment gateway.)",
-        "titulo_proyecto2":"Jewelry Store",
-        "descripcion_proyecto2":"It is a website for a small jewelry business. (This website was one of the first that I created, so the images I used are not completely optimized, at this moment I do have knowledge of website and image optimization.)",
-        "titulo_proyecto3":"Shopping cart",
-        "descripcion_proyecto3":"Functional shopping cart made with JavaScript, where you can add products by id, remove them and empty cart completely.",
-        "titulo_proyecto4":"Website Piso Uno",
-        "descripcion_proyecto4":"I am doing a facelift of the website of a prestigious restaurant in Santiago de Chile, giving it an aesthetic that combines more with its style and prestige."
+        "titulo_ariadnaVivas": "Ariadna's Salon",
+        "descripcion_ariadnaVivas":"Website for client where her professional work is shown in the field of styling for both women and men (I will use Hostgator to manage and upload the website to the Internet. I will be working on this project to implement functions such as a virtual store and payment gateway.)",
+        "titulo_carro_compras":"Shopping cart",
+        "descripcion_carro_compras":"Functional shopping cart made with JavaScript, where you can add products by id, remove them and empty cart completely.",
+        "titulo_pisouno":"Website Piso Uno",
+        "descripcion_pisouno":"I am doing a facelift of the website of a prestigious restaurant in Santiago de Chile, giving it an aesthetic that combines more with its style and prestige.",
+        "titulo_contador_clicks":"Click Counter",
+        "descripcion_contador_click":"It is a basic click counter made with React to implement the use of functions and hooks."
     }
 }
