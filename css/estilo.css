@@ -339,6 +339,7 @@ html{
    #sobremi{
       padding: 50px 0;
       display: flex;
+      flex-direction: column;
    }
    #sobremi p{
       margin: 5px;
@@ -357,7 +358,7 @@ html{
       margin: auto;
    }
    #sobremi .contenedor-foto img{
-      display: none;
+      width: 200px;
    }
    #sobremi .sobremi .titulo-seccion{
       text-align: center;
