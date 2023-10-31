@@ -134,7 +134,7 @@ html{
 #sobremi .contenedor-foto img{
    width: 400px;
    border-radius: 20px;
-   box-shadow: 5px 5px 10px #000000;
+   box-shadow: 1px 1px 15px 1px #000000;
 }
 #sobremi .boton_cv{
    display: flex;
@@ -145,7 +145,7 @@ html{
    background-color: var(--second_color);
    padding: .5rem;
    font-weight: 500;
-   box-shadow: 5px 5px 10px #000000;
+   box-shadow: 1px 1px 15px 1px #000000;
    transition: all .3s;
 }
 #sobremi .boton_cv a:hover{
