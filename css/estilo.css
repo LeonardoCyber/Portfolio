@@ -307,16 +307,17 @@ html{
 }
 /* FOOTER */
 .footer{
-   padding: 1rem;
+   padding: .5rem;
    background-color: #0f0d18;
    margin-top: 2rem;
 }
 .footer-content{
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 .footer-content p{
-   padding: 10px;
+   padding: 5px;
    display: flex;
    color: #ebeaea;
    font-size: .9rem;
@@ -390,6 +391,10 @@ html{
    .proyecto-img:hover{
       scale: none;
       box-shadow: none;
+   }
+   .footer-content{
+      display: flex;
+      flex-direction: column;
    }
    #flags{
       position: absolute;
