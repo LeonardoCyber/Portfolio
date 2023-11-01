@@ -315,10 +315,10 @@ html{
    display: flex;
    justify-content: center;
 }
-.footer-parrafo p{
-   color: #ffffff3f;
+.footer-content p{
+   padding: 10px;
+   color: #e2e2e2;
    font-size: .9rem;
-   margin: 0 auto;
 }
 /* SECCION RESPONSIVE */
 @media(max-width:991px){
