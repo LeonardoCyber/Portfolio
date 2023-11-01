@@ -393,8 +393,8 @@ html{
       box-shadow: none;
    }
    .footer-content{
-      display: flex;
-      flex-direction: column;
+      display: block;
+      text-align: center;
    }
    #flags{
       position: absolute;
