@@ -317,7 +317,8 @@ html{
 }
 .footer-content p{
    padding: 10px;
-   color: #e2e2e2;
+   display: flex;
+   color: #ebeaea;
    font-size: .9rem;
 }
 /* SECCION RESPONSIVE */
