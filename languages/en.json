@@ -19,6 +19,8 @@
         "titulo_pisouno":"Website Piso Uno",
         "descripcion_pisouno":"I am doing a facelift of the website of a prestigious restaurant in Santiago de Chile, giving it an aesthetic that combines more with its style and prestige.",
         "titulo_contador_clicks":"Click Counter",
-        "descripcion_contador_click":"It is a basic click counter made with React to implement the use of functions and hooks."
+        "descripcion_contador_click":"It is a basic click counter made with React to implement the use of functions and hooks.",
+        "titulo_buscador_auto":"car finder",
+        "descripcion_buscador_autos":"It is a car search engine based on different attributes made with JavaScript to implement what is known as high-level functions and DOM scripting, it can be filtered by brand, color, transmission, price, among others."
     }
 }

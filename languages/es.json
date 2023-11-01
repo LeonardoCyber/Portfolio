@@ -19,6 +19,8 @@
         "titulo_pisouno": "web Piso Uno",
         "descripcion_pisouno": "Me encuentro haciendo un lavado de cara de la web de un prestigioso restaurante de Santiago de Chile, dándole una estética que combine mas con su estilo y prestigio.",
         "titulo_contador_clicks":"Contador de Clicks",
-        "descripcion_contador_click":"Es un contador de clicks básico hecho con React para poner en practica el uso de funciones y hooks."
+        "descripcion_contador_click":"Es un contador de clicks básico hecho con React para poner en practica el uso de funciones y hooks.",
+        "titulo_buscador_auto":"Buscador de autos",
+        "descripcion_buscador_autos":"Es un buscador de autos por diferentes atributos hecho con JavaScript para poner en practica lo que se conoce como funciones de alto nivel y DOM scripting, se puede filtrar por, marca, color, transmisión, precio entre otros."
     }
 }
