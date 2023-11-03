@@ -30,7 +30,7 @@
 }
 .icon{
    text-decoration: none;
-   padding: .3rem;
+   padding: .2rem;
    display:flex;
    transition: .5s;
 }
@@ -436,7 +436,6 @@ html{
 .flags__item img{
    width: 30px;
    transition: all .3s;
-   box-shadow: 3px 3px 5px;
 }
 .flags__item img:hover{
    scale: 1.2;
