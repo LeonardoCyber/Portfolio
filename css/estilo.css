@@ -307,7 +307,7 @@ html{
 }
 /* FOOTER */
 .footer{
-   padding: .5rem;
+   padding-top: 1.1rem;
    background-color: #0f0d18;
    margin-top: 2rem;
 }
@@ -391,6 +391,10 @@ html{
    .proyecto-img:hover{
       scale: none;
       box-shadow: none;
+   }
+   .footer{
+      margin-top: 0;
+      padding: .8rem;
    }
    .footer-content{
       display: block;
