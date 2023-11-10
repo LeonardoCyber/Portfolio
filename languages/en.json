@@ -15,7 +15,7 @@
         "titulo_ariadnaVivas": "Ariadna's Salon",
         "descripcion_ariadnaVivas":"(in construction) Website for client showing her professional work in the field of styling for both women and men (I will use Hostgator to manage and upload the website to the Internet. I will be working on this project to implement functions such as a virtual store and catwalk of payments.)",
         "titulo_carro_compras":"Shopping cart",
-        "descripcion_carro_compras":"Functional shopping cart made with JavaScript, where you can add products by id, remove them and empty cart completely.",
+        "descripcion_carro_compras":"Functional shopping cart made with javaScript, where localStorage is implemented, adding products by id, removing them and emptying the cart completely.",
         "titulo_pisouno":"Website Piso Uno",
         "descripcion_pisouno":"(in construction) I am doing a facelift of the website of a prestigious restaurant in Santiago de Chile, giving it an aesthetic that combines more with its style and prestige.",
         "titulo_contador_clicks":"Click Counter",
